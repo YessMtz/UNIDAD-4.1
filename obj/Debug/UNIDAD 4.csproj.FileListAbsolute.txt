@@ -1,0 +1,22 @@
+C:\Users\admin\Desktop\UNIDAD 4\bin\Debug\UNIDAD 4.exe.config
+C:\Users\admin\Desktop\UNIDAD 4\bin\Debug\UNIDAD 4.exe
+C:\Users\admin\Desktop\UNIDAD 4\bin\Debug\UNIDAD 4.pdb
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD_4.Properties.Resources.resources
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD 4.exe
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD 4.pdb
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD_4.Registro_Farmacias.resources
+C:\Users\admin\Desktop\UNIDAD 4\obj\Debug\UNIDAD_4.Registro_Propietario.resources
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.AssemblyReference.cache
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD_4.Pantalla_Inicio.resources
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD_4.Properties.Resources.resources
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD_4.Registro_Ciudad.resources
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD_4.Registro_Farmacias.resources
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD_4.Registro_Medicamento.resources
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD_4.Registro_Propietarios.resources
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.GenerateResource.cache
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.CoreCompileInputs.cache
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.exe
+C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.pdb
