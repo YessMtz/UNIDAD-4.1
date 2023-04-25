@@ -29,7 +29,6 @@ namespace UNIDAD_4
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro_Propietarios));
             this.Salir_Farm = new System.Windows.Forms.Button();
             this.Modificar_Prop = new System.Windows.Forms.Button();
             this.Borrar_Farm = new System.Windows.Forms.Button();
@@ -45,28 +44,27 @@ namespace UNIDAD_4
             this.Id_Prop = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Panel_Menu = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
-            this.FARM = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.FARM = new System.Windows.Forms.Label();
             this.Panel_Menu.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // Salir_Farm
@@ -130,7 +128,7 @@ namespace UNIDAD_4
             this.label7.Location = new System.Drawing.Point(266, 225);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 16);
+            this.label7.Size = new System.Drawing.Size(78, 16);
             this.label7.TabIndex = 34;
             this.label7.Text = "Direccion:";
             // 
@@ -150,7 +148,7 @@ namespace UNIDAD_4
             this.label5.Location = new System.Drawing.Point(266, 336);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 16);
+            this.label5.Size = new System.Drawing.Size(72, 16);
             this.label5.TabIndex = 30;
             this.label5.Text = "Telefono:";
             // 
@@ -170,7 +168,7 @@ namespace UNIDAD_4
             this.label4.Location = new System.Drawing.Point(266, 277);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 16);
+            this.label4.Size = new System.Drawing.Size(60, 16);
             this.label4.TabIndex = 26;
             this.label4.Text = "Ciudad:";
             // 
@@ -190,7 +188,7 @@ namespace UNIDAD_4
             this.label2.Location = new System.Drawing.Point(266, 166);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 16);
+            this.label2.Size = new System.Drawing.Size(170, 16);
             this.label2.TabIndex = 24;
             this.label2.Text = "Nombre de Propietario:";
             // 
@@ -210,7 +208,7 @@ namespace UNIDAD_4
             this.label1.Location = new System.Drawing.Point(266, 108);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 16);
+            this.label1.Size = new System.Drawing.Size(112, 16);
             this.label1.TabIndex = 22;
             this.label1.Text = "No. Propietario";
             // 
@@ -222,39 +220,11 @@ namespace UNIDAD_4
             this.Panel_Menu.Controls.Add(this.panel3);
             this.Panel_Menu.Controls.Add(this.panel2);
             this.Panel_Menu.Controls.Add(this.panel1);
-            this.Panel_Menu.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Panel_Menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Panel_Menu.Location = new System.Drawing.Point(0, 70);
             this.Panel_Menu.Name = "Panel_Menu";
             this.Panel_Menu.Size = new System.Drawing.Size(200, 302);
             this.Panel_Menu.TabIndex = 40;
-            // 
-            // panel2
-            // 
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 60);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 60);
-            this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 120);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 60);
-            this.panel3.TabIndex = 2;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 180);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 60);
-            this.panel4.TabIndex = 3;
             // 
             // panel5
             // 
@@ -265,46 +235,28 @@ namespace UNIDAD_4
             this.panel5.Size = new System.Drawing.Size(200, 60);
             this.panel5.TabIndex = 4;
             // 
-            // panel7
+            // button4
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.panel7.Controls.Add(this.panel6);
-            this.panel7.Controls.Add(this.label6);
-            this.panel7.Controls.Add(this.label3);
-            this.panel7.Controls.Add(this.FARM);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(784, 70);
-            this.panel7.TabIndex = 41;
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Arial", 12F);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(200, 71);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "MEDICAMENTOS";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // panel4
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "PROPIETARIOS";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Arial", 12F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 60);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "FARMACIAS";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
+            this.panel4.Controls.Add(this.button3);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 180);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 60);
+            this.panel4.TabIndex = 3;
             // 
             // button3
             // 
@@ -320,19 +272,52 @@ namespace UNIDAD_4
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // panel3
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Arial", 12F);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 71);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "MEDICAMENTOS";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
+            this.panel3.Controls.Add(this.button2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 120);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 60);
+            this.panel3.TabIndex = 2;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Arial", 12F);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(200, 60);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "FARMACIAS";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 60);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 60);
+            this.panel2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Arial", 12F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 60);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "PROPIETARIOS";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -357,27 +342,17 @@ namespace UNIDAD_4
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // FARM
+            // panel7
             // 
-            this.FARM.AutoSize = true;
-            this.FARM.Font = new System.Drawing.Font("Arial", 15F);
-            this.FARM.ForeColor = System.Drawing.Color.White;
-            this.FARM.Location = new System.Drawing.Point(98, 23);
-            this.FARM.Name = "FARM";
-            this.FARM.Size = new System.Drawing.Size(102, 23);
-            this.FARM.TabIndex = 0;
-            this.FARM.Text = "Farmacias";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(344, 43);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(204, 23);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Lo mismo pero igual...";
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel7.Controls.Add(this.label6);
+            this.panel7.Controls.Add(this.label3);
+            this.panel7.Controls.Add(this.FARM);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(784, 70);
+            this.panel7.TabIndex = 41;
             // 
             // label6
             // 
@@ -391,16 +366,27 @@ namespace UNIDAD_4
             this.label6.TabIndex = 2;
             this.label6.Text = "MEJORATE PRONTO";
             // 
-            // panel6
+            // label3
             // 
-            this.panel6.BackColor = System.Drawing.Color.Transparent;
-            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
-            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(671, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(113, 70);
-            this.panel6.TabIndex = 3;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(344, 43);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(204, 23);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Lo mismo pero igual...";
+            // 
+            // FARM
+            // 
+            this.FARM.AutoSize = true;
+            this.FARM.Font = new System.Drawing.Font("Arial", 15F);
+            this.FARM.ForeColor = System.Drawing.Color.White;
+            this.FARM.Location = new System.Drawing.Point(98, 23);
+            this.FARM.Name = "FARM";
+            this.FARM.Size = new System.Drawing.Size(102, 23);
+            this.FARM.TabIndex = 0;
+            this.FARM.Text = "Farmacias";
             // 
             // Registro_Propietarios
             // 
@@ -428,13 +414,13 @@ namespace UNIDAD_4
             this.Text = "Registro_Propietarios";
             this.Load += new System.EventHandler(this.Registro_Propietarios_Load);
             this.Panel_Menu.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -468,7 +454,6 @@ namespace UNIDAD_4
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label FARM;
