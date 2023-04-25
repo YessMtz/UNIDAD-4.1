@@ -37,7 +37,7 @@ namespace UNIDAD_4
             this.label7 = new System.Windows.Forms.Label();
             this.Tel_Prop = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.Cd_Farmacia = new System.Windows.Forms.TextBox();
+            this.Cd_Prop = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Nombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -111,6 +111,7 @@ namespace UNIDAD_4
             this.Guardar_Farm.TabIndex = 36;
             this.Guardar_Farm.Text = "Guardar";
             this.Guardar_Farm.UseVisualStyleBackColor = true;
+            this.Guardar_Farm.Click += new System.EventHandler(this.Guardar_Farm_Click);
             // 
             // Direccion
             // 
@@ -152,13 +153,13 @@ namespace UNIDAD_4
             this.label5.TabIndex = 30;
             this.label5.Text = "Telefono:";
             // 
-            // Cd_Farmacia
+            // Cd_Prop
             // 
-            this.Cd_Farmacia.Location = new System.Drawing.Point(270, 299);
-            this.Cd_Farmacia.Margin = new System.Windows.Forms.Padding(2);
-            this.Cd_Farmacia.Name = "Cd_Farmacia";
-            this.Cd_Farmacia.Size = new System.Drawing.Size(165, 20);
-            this.Cd_Farmacia.TabIndex = 27;
+            this.Cd_Prop.Location = new System.Drawing.Point(270, 299);
+            this.Cd_Prop.Margin = new System.Windows.Forms.Padding(2);
+            this.Cd_Prop.Name = "Cd_Prop";
+            this.Cd_Prop.Size = new System.Drawing.Size(165, 20);
+            this.Cd_Prop.TabIndex = 27;
             // 
             // label4
             // 
@@ -404,7 +405,7 @@ namespace UNIDAD_4
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Tel_Prop);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.Cd_Farmacia);
+            this.Controls.Add(this.Cd_Prop);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Nombre);
             this.Controls.Add(this.label2);
@@ -436,7 +437,7 @@ namespace UNIDAD_4
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox Tel_Prop;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox Cd_Farmacia;
+        private System.Windows.Forms.TextBox Cd_Prop;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox Nombre;
         private System.Windows.Forms.Label label2;
