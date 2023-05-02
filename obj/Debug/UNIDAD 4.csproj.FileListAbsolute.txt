@@ -20,3 +20,16 @@ C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.Generate
 C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.CoreCompileInputs.cache
 C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.exe
 C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.pdb
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.AssemblyReference.cache
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.SuggestedBindingRedirects.cache
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD_4.Pantalla_Inicio.resources
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD_4.Properties.Resources.resources
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Ciudad.resources
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Farmacias.resources
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Medicamento.resources
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Propietarios.resources
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.GenerateResource.cache
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.exe.licenses
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.CoreCompileInputs.cache
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.exe
+C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.pdb

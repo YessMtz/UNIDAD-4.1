@@ -34,6 +34,11 @@ namespace UNIDAD_4
 
         private void Guardar_Farm_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void Guardar_P_Click(object sender, EventArgs e)
+        {
             SqlCommand Altas = new SqlCommand("insert into Registro_Socio(Id_Prop, Nombre, Direccion, Ciudad, Tel)", Conex);
             Altas.Parameters.AddWithValue("Id_Prop", Id_Prop.Text);
             Altas.Parameters.AddWithValue("Nombre", Nombre.Text);
@@ -45,6 +50,7 @@ namespace UNIDAD_4
             Altas.ExecuteNonQuery();
             Conex.Close();
             MessageBox.Show("Socio Almacen");
+
         }
     }
 }

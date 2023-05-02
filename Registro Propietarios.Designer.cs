@@ -29,10 +29,7 @@ namespace UNIDAD_4
         /// </summary>
         private void InitializeComponent()
         {
-            this.Salir_Farm = new System.Windows.Forms.Button();
-            this.Modificar_Prop = new System.Windows.Forms.Button();
-            this.Borrar_Farm = new System.Windows.Forms.Button();
-            this.Guardar_Farm = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro_Propietarios));
             this.Direccion = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Tel_Prop = new System.Windows.Forms.TextBox();
@@ -58,6 +55,10 @@ namespace UNIDAD_4
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.FARM = new System.Windows.Forms.Label();
+            this.Guardar_P = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Buscar_P = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Eliminar_P = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Salir = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Panel_Menu.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -67,55 +68,9 @@ namespace UNIDAD_4
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Salir_Farm
-            // 
-            this.Salir_Farm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Salir_Farm.Location = new System.Drawing.Point(595, 297);
-            this.Salir_Farm.Margin = new System.Windows.Forms.Padding(2);
-            this.Salir_Farm.Name = "Salir_Farm";
-            this.Salir_Farm.Size = new System.Drawing.Size(84, 28);
-            this.Salir_Farm.TabIndex = 39;
-            this.Salir_Farm.Text = "Salir";
-            this.Salir_Farm.UseVisualStyleBackColor = true;
-            this.Salir_Farm.Click += new System.EventHandler(this.Salir_Farm_Click);
-            // 
-            // Modificar_Prop
-            // 
-            this.Modificar_Prop.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Modificar_Prop.Location = new System.Drawing.Point(595, 257);
-            this.Modificar_Prop.Margin = new System.Windows.Forms.Padding(2);
-            this.Modificar_Prop.Name = "Modificar_Prop";
-            this.Modificar_Prop.Size = new System.Drawing.Size(84, 28);
-            this.Modificar_Prop.TabIndex = 38;
-            this.Modificar_Prop.Text = "Modificar";
-            this.Modificar_Prop.UseVisualStyleBackColor = true;
-            // 
-            // Borrar_Farm
-            // 
-            this.Borrar_Farm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Borrar_Farm.Location = new System.Drawing.Point(595, 211);
-            this.Borrar_Farm.Margin = new System.Windows.Forms.Padding(2);
-            this.Borrar_Farm.Name = "Borrar_Farm";
-            this.Borrar_Farm.Size = new System.Drawing.Size(84, 28);
-            this.Borrar_Farm.TabIndex = 37;
-            this.Borrar_Farm.Text = "Borrar";
-            this.Borrar_Farm.UseVisualStyleBackColor = true;
-            // 
-            // Guardar_Farm
-            // 
-            this.Guardar_Farm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Guardar_Farm.Location = new System.Drawing.Point(595, 167);
-            this.Guardar_Farm.Margin = new System.Windows.Forms.Padding(2);
-            this.Guardar_Farm.Name = "Guardar_Farm";
-            this.Guardar_Farm.Size = new System.Drawing.Size(84, 28);
-            this.Guardar_Farm.TabIndex = 36;
-            this.Guardar_Farm.Text = "Guardar";
-            this.Guardar_Farm.UseVisualStyleBackColor = true;
-            this.Guardar_Farm.Click += new System.EventHandler(this.Guardar_Farm_Click);
-            // 
             // Direccion
             // 
-            this.Direccion.Location = new System.Drawing.Point(270, 247);
+            this.Direccion.Location = new System.Drawing.Point(267, 287);
             this.Direccion.Margin = new System.Windows.Forms.Padding(2);
             this.Direccion.Name = "Direccion";
             this.Direccion.Size = new System.Drawing.Size(247, 20);
@@ -126,7 +81,7 @@ namespace UNIDAD_4
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(266, 225);
+            this.label7.Location = new System.Drawing.Point(263, 265);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(78, 16);
@@ -135,7 +90,7 @@ namespace UNIDAD_4
             // 
             // Tel_Prop
             // 
-            this.Tel_Prop.Location = new System.Drawing.Point(270, 358);
+            this.Tel_Prop.Location = new System.Drawing.Point(267, 398);
             this.Tel_Prop.Margin = new System.Windows.Forms.Padding(2);
             this.Tel_Prop.Name = "Tel_Prop";
             this.Tel_Prop.Size = new System.Drawing.Size(165, 20);
@@ -146,7 +101,7 @@ namespace UNIDAD_4
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(266, 336);
+            this.label5.Location = new System.Drawing.Point(263, 376);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 16);
@@ -155,7 +110,7 @@ namespace UNIDAD_4
             // 
             // Cd_Prop
             // 
-            this.Cd_Prop.Location = new System.Drawing.Point(270, 299);
+            this.Cd_Prop.Location = new System.Drawing.Point(267, 339);
             this.Cd_Prop.Margin = new System.Windows.Forms.Padding(2);
             this.Cd_Prop.Name = "Cd_Prop";
             this.Cd_Prop.Size = new System.Drawing.Size(165, 20);
@@ -166,7 +121,7 @@ namespace UNIDAD_4
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(266, 277);
+            this.label4.Location = new System.Drawing.Point(263, 317);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 16);
@@ -175,7 +130,7 @@ namespace UNIDAD_4
             // 
             // Nombre
             // 
-            this.Nombre.Location = new System.Drawing.Point(270, 188);
+            this.Nombre.Location = new System.Drawing.Point(267, 228);
             this.Nombre.Margin = new System.Windows.Forms.Padding(2);
             this.Nombre.Name = "Nombre";
             this.Nombre.Size = new System.Drawing.Size(247, 20);
@@ -186,7 +141,7 @@ namespace UNIDAD_4
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(266, 166);
+            this.label2.Location = new System.Drawing.Point(263, 206);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(170, 16);
@@ -195,7 +150,7 @@ namespace UNIDAD_4
             // 
             // Id_Prop
             // 
-            this.Id_Prop.Location = new System.Drawing.Point(270, 130);
+            this.Id_Prop.Location = new System.Drawing.Point(267, 170);
             this.Id_Prop.Margin = new System.Windows.Forms.Padding(2);
             this.Id_Prop.Name = "Id_Prop";
             this.Id_Prop.Size = new System.Drawing.Size(247, 20);
@@ -206,7 +161,7 @@ namespace UNIDAD_4
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(266, 108);
+            this.label1.Location = new System.Drawing.Point(263, 148);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 16);
@@ -352,7 +307,7 @@ namespace UNIDAD_4
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(784, 70);
+            this.panel7.Size = new System.Drawing.Size(980, 70);
             this.panel7.TabIndex = 41;
             // 
             // label6
@@ -389,18 +344,121 @@ namespace UNIDAD_4
             this.FARM.TabIndex = 0;
             this.FARM.Text = "Farmacias";
             // 
+            // Guardar_P
+            // 
+            this.Guardar_P.ActiveBorderThickness = 1;
+            this.Guardar_P.ActiveCornerRadius = 20;
+            this.Guardar_P.ActiveFillColor = System.Drawing.Color.LightSalmon;
+            this.Guardar_P.ActiveForecolor = System.Drawing.Color.White;
+            this.Guardar_P.ActiveLineColor = System.Drawing.Color.Transparent;
+            this.Guardar_P.BackColor = System.Drawing.Color.Transparent;
+            this.Guardar_P.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Guardar_P.BackgroundImage")));
+            this.Guardar_P.ButtonText = "Guardar";
+            this.Guardar_P.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Guardar_P.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Guardar_P.ForeColor = System.Drawing.Color.Transparent;
+            this.Guardar_P.IdleBorderThickness = 1;
+            this.Guardar_P.IdleCornerRadius = 20;
+            this.Guardar_P.IdleFillColor = System.Drawing.Color.White;
+            this.Guardar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Guardar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Guardar_P.Location = new System.Drawing.Point(682, 198);
+            this.Guardar_P.Margin = new System.Windows.Forms.Padding(5);
+            this.Guardar_P.Name = "Guardar_P";
+            this.Guardar_P.Size = new System.Drawing.Size(127, 45);
+            this.Guardar_P.TabIndex = 42;
+            this.Guardar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Guardar_P.Click += new System.EventHandler(this.Guardar_P_Click);
+            // 
+            // Buscar_P
+            // 
+            this.Buscar_P.ActiveBorderThickness = 1;
+            this.Buscar_P.ActiveCornerRadius = 20;
+            this.Buscar_P.ActiveFillColor = System.Drawing.Color.LightSalmon;
+            this.Buscar_P.ActiveForecolor = System.Drawing.Color.White;
+            this.Buscar_P.ActiveLineColor = System.Drawing.Color.Transparent;
+            this.Buscar_P.BackColor = System.Drawing.Color.Transparent;
+            this.Buscar_P.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Buscar_P.BackgroundImage")));
+            this.Buscar_P.ButtonText = "Buscar";
+            this.Buscar_P.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Buscar_P.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Buscar_P.ForeColor = System.Drawing.Color.Transparent;
+            this.Buscar_P.IdleBorderThickness = 1;
+            this.Buscar_P.IdleCornerRadius = 20;
+            this.Buscar_P.IdleFillColor = System.Drawing.Color.White;
+            this.Buscar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Buscar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Buscar_P.Location = new System.Drawing.Point(682, 253);
+            this.Buscar_P.Margin = new System.Windows.Forms.Padding(5);
+            this.Buscar_P.Name = "Buscar_P";
+            this.Buscar_P.Size = new System.Drawing.Size(127, 45);
+            this.Buscar_P.TabIndex = 43;
+            this.Buscar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Eliminar_P
+            // 
+            this.Eliminar_P.ActiveBorderThickness = 1;
+            this.Eliminar_P.ActiveCornerRadius = 20;
+            this.Eliminar_P.ActiveFillColor = System.Drawing.Color.LightSalmon;
+            this.Eliminar_P.ActiveForecolor = System.Drawing.Color.White;
+            this.Eliminar_P.ActiveLineColor = System.Drawing.Color.Transparent;
+            this.Eliminar_P.BackColor = System.Drawing.Color.Transparent;
+            this.Eliminar_P.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eliminar_P.BackgroundImage")));
+            this.Eliminar_P.ButtonText = "Eliminar";
+            this.Eliminar_P.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Eliminar_P.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Eliminar_P.ForeColor = System.Drawing.Color.Transparent;
+            this.Eliminar_P.IdleBorderThickness = 1;
+            this.Eliminar_P.IdleCornerRadius = 20;
+            this.Eliminar_P.IdleFillColor = System.Drawing.Color.White;
+            this.Eliminar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Eliminar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Eliminar_P.Location = new System.Drawing.Point(682, 315);
+            this.Eliminar_P.Margin = new System.Windows.Forms.Padding(5);
+            this.Eliminar_P.Name = "Eliminar_P";
+            this.Eliminar_P.Size = new System.Drawing.Size(127, 45);
+            this.Eliminar_P.TabIndex = 44;
+            this.Eliminar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Salir
+            // 
+            this.Salir.ActiveBorderThickness = 1;
+            this.Salir.ActiveCornerRadius = 20;
+            this.Salir.ActiveFillColor = System.Drawing.Color.LightSalmon;
+            this.Salir.ActiveForecolor = System.Drawing.Color.White;
+            this.Salir.ActiveLineColor = System.Drawing.Color.Transparent;
+            this.Salir.BackColor = System.Drawing.Color.Transparent;
+            this.Salir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Salir.BackgroundImage")));
+            this.Salir.ButtonText = "Salir";
+            this.Salir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Salir.ForeColor = System.Drawing.Color.Transparent;
+            this.Salir.IdleBorderThickness = 1;
+            this.Salir.IdleCornerRadius = 20;
+            this.Salir.IdleFillColor = System.Drawing.Color.White;
+            this.Salir.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Salir.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Salir.Location = new System.Drawing.Point(682, 378);
+            this.Salir.Margin = new System.Windows.Forms.Padding(5);
+            this.Salir.Name = "Salir";
+            this.Salir.Size = new System.Drawing.Size(127, 45);
+            this.Salir.TabIndex = 45;
+            this.Salir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Registro_Propietarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(784, 429);
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(980, 565);
+            this.Controls.Add(this.Salir);
+            this.Controls.Add(this.Eliminar_P);
+            this.Controls.Add(this.Buscar_P);
+            this.Controls.Add(this.Guardar_P);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.Panel_Menu);
-            this.Controls.Add(this.Salir_Farm);
-            this.Controls.Add(this.Modificar_Prop);
-            this.Controls.Add(this.Borrar_Farm);
-            this.Controls.Add(this.Guardar_Farm);
             this.Controls.Add(this.Direccion);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Tel_Prop);
@@ -411,6 +469,7 @@ namespace UNIDAD_4
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Id_Prop);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Registro_Propietarios";
             this.Text = "Registro_Propietarios";
             this.Load += new System.EventHandler(this.Registro_Propietarios_Load);
@@ -428,11 +487,6 @@ namespace UNIDAD_4
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Salir_Farm;
-        private System.Windows.Forms.Button Modificar_Prop;
-        private System.Windows.Forms.Button Borrar_Farm;
-        private System.Windows.Forms.Button Guardar_Farm;
         private System.Windows.Forms.TextBox Direccion;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox Tel_Prop;
@@ -458,5 +512,9 @@ namespace UNIDAD_4
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label FARM;
+        private Bunifu.Framework.UI.BunifuThinButton2 Guardar_P;
+        private Bunifu.Framework.UI.BunifuThinButton2 Buscar_P;
+        private Bunifu.Framework.UI.BunifuThinButton2 Eliminar_P;
+        private Bunifu.Framework.UI.BunifuThinButton2 Salir;
     }
 }
