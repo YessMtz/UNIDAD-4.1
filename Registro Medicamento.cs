@@ -16,5 +16,10 @@ namespace UNIDAD_4
         {
             InitializeComponent();
         }
+
+        private void Salir_M_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
