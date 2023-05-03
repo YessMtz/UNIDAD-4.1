@@ -29,12 +29,12 @@ namespace UNIDAD_4
         /// </summary>
         private void InitializeComponent()
         {
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro_Medicamento));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.Nom_Comercial = new System.Windows.Forms.TextBox();
             this.Id_Med = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,22 +50,17 @@ namespace UNIDAD_4
             this.bunifuIconButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuIconButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuIconButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.FARM = new System.Windows.Forms.Label();
             this.Salir = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Eliminar_P = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Buscar_P = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Guardar_P = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel7.SuspendLayout();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // Nom_Comercial
             // 
             this.Nom_Comercial.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nom_Comercial.Location = new System.Drawing.Point(192, 298);
+            this.Nom_Comercial.Location = new System.Drawing.Point(192, 387);
             this.Nom_Comercial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nom_Comercial.Name = "Nom_Comercial";
             this.Nom_Comercial.Size = new System.Drawing.Size(305, 27);
@@ -74,7 +69,7 @@ namespace UNIDAD_4
             // Id_Med
             // 
             this.Id_Med.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Id_Med.Location = new System.Drawing.Point(192, 225);
+            this.Id_Med.Location = new System.Drawing.Point(192, 314);
             this.Id_Med.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Id_Med.Name = "Id_Med";
             this.Id_Med.Size = new System.Drawing.Size(191, 27);
@@ -85,7 +80,7 @@ namespace UNIDAD_4
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(188, 274);
+            this.label2.Location = new System.Drawing.Point(188, 363);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 19);
             this.label2.TabIndex = 14;
@@ -96,7 +91,7 @@ namespace UNIDAD_4
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(188, 197);
+            this.label1.Location = new System.Drawing.Point(188, 278);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 19);
             this.label1.TabIndex = 13;
@@ -105,7 +100,7 @@ namespace UNIDAD_4
             // Generico
             // 
             this.Generico.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Generico.Location = new System.Drawing.Point(192, 374);
+            this.Generico.Location = new System.Drawing.Point(192, 463);
             this.Generico.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Generico.Name = "Generico";
             this.Generico.Size = new System.Drawing.Size(305, 27);
@@ -116,7 +111,7 @@ namespace UNIDAD_4
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(188, 350);
+            this.label6.Location = new System.Drawing.Point(188, 439);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(153, 19);
             this.label6.TabIndex = 26;
@@ -125,7 +120,7 @@ namespace UNIDAD_4
             // Similares
             // 
             this.Similares.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Similares.Location = new System.Drawing.Point(192, 448);
+            this.Similares.Location = new System.Drawing.Point(192, 537);
             this.Similares.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Similares.Name = "Similares";
             this.Similares.Size = new System.Drawing.Size(305, 27);
@@ -136,7 +131,7 @@ namespace UNIDAD_4
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(188, 424);
+            this.label3.Location = new System.Drawing.Point(188, 513);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(203, 19);
             this.label3.TabIndex = 28;
@@ -145,7 +140,7 @@ namespace UNIDAD_4
             // Precio
             // 
             this.Precio.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Precio.Location = new System.Drawing.Point(192, 530);
+            this.Precio.Location = new System.Drawing.Point(192, 619);
             this.Precio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Precio.Name = "Precio";
             this.Precio.Size = new System.Drawing.Size(191, 27);
@@ -156,7 +151,7 @@ namespace UNIDAD_4
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(188, 502);
+            this.label4.Location = new System.Drawing.Point(188, 591);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 19);
             this.label4.TabIndex = 30;
@@ -177,15 +172,15 @@ namespace UNIDAD_4
             this.bunifuIconButton5.ColorContrastOnClick = 30;
             this.bunifuIconButton5.ColorContrastOnHover = 30;
             this.bunifuIconButton5.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.bunifuIconButton5.CustomizableEdges = borderEdges6;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bunifuIconButton5.CustomizableEdges = borderEdges1;
             this.bunifuIconButton5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton5.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton5.Image")));
             this.bunifuIconButton5.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuIconButton5.Location = new System.Drawing.Point(12, 585);
+            this.bunifuIconButton5.Location = new System.Drawing.Point(22, 661);
             this.bunifuIconButton5.Name = "bunifuIconButton5";
             this.bunifuIconButton5.RoundBorders = true;
             this.bunifuIconButton5.ShowBorders = true;
@@ -208,15 +203,15 @@ namespace UNIDAD_4
             this.bunifuIconButton4.ColorContrastOnClick = 30;
             this.bunifuIconButton4.ColorContrastOnHover = 30;
             this.bunifuIconButton4.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.bunifuIconButton4.CustomizableEdges = borderEdges7;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.bunifuIconButton4.CustomizableEdges = borderEdges2;
             this.bunifuIconButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton4.Image")));
             this.bunifuIconButton4.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuIconButton4.Location = new System.Drawing.Point(12, 479);
+            this.bunifuIconButton4.Location = new System.Drawing.Point(22, 555);
             this.bunifuIconButton4.Name = "bunifuIconButton4";
             this.bunifuIconButton4.RoundBorders = true;
             this.bunifuIconButton4.ShowBorders = true;
@@ -239,15 +234,15 @@ namespace UNIDAD_4
             this.bunifuIconButton3.ColorContrastOnClick = 30;
             this.bunifuIconButton3.ColorContrastOnHover = 30;
             this.bunifuIconButton3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.bunifuIconButton3.CustomizableEdges = borderEdges8;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.bunifuIconButton3.CustomizableEdges = borderEdges3;
             this.bunifuIconButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton3.Image")));
             this.bunifuIconButton3.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuIconButton3.Location = new System.Drawing.Point(12, 373);
+            this.bunifuIconButton3.Location = new System.Drawing.Point(22, 449);
             this.bunifuIconButton3.Name = "bunifuIconButton3";
             this.bunifuIconButton3.RoundBorders = true;
             this.bunifuIconButton3.ShowBorders = true;
@@ -270,15 +265,15 @@ namespace UNIDAD_4
             this.bunifuIconButton2.ColorContrastOnClick = 30;
             this.bunifuIconButton2.ColorContrastOnHover = 30;
             this.bunifuIconButton2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.bunifuIconButton2.CustomizableEdges = borderEdges9;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.bunifuIconButton2.CustomizableEdges = borderEdges4;
             this.bunifuIconButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton2.Image")));
             this.bunifuIconButton2.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuIconButton2.Location = new System.Drawing.Point(12, 264);
+            this.bunifuIconButton2.Location = new System.Drawing.Point(22, 340);
             this.bunifuIconButton2.Name = "bunifuIconButton2";
             this.bunifuIconButton2.RoundBorders = true;
             this.bunifuIconButton2.ShowBorders = true;
@@ -301,82 +296,21 @@ namespace UNIDAD_4
             this.bunifuIconButton1.ColorContrastOnClick = 30;
             this.bunifuIconButton1.ColorContrastOnHover = 30;
             this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.bunifuIconButton1.CustomizableEdges = borderEdges10;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.bunifuIconButton1.CustomizableEdges = borderEdges5;
             this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton1.Image")));
             this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuIconButton1.Location = new System.Drawing.Point(12, 149);
+            this.bunifuIconButton1.Location = new System.Drawing.Point(22, 225);
             this.bunifuIconButton1.Name = "bunifuIconButton1";
             this.bunifuIconButton1.RoundBorders = true;
             this.bunifuIconButton1.ShowBorders = true;
             this.bunifuIconButton1.Size = new System.Drawing.Size(100, 100);
             this.bunifuIconButton1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.bunifuIconButton1.TabIndex = 58;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.panel7.Controls.Add(this.panel1);
-            this.panel7.Controls.Add(this.label5);
-            this.panel7.Controls.Add(this.label7);
-            this.panel7.Controls.Add(this.FARM);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(878, 132);
-            this.panel7.TabIndex = 57;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(4, 132);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(115, 115);
-            this.panel1.TabIndex = 51;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(379, 14);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(388, 42);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "MEJORATE PRONTO";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(459, 53);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(249, 28);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Lo mismo pero igual...";
-            // 
-            // FARM
-            // 
-            this.FARM.AutoSize = true;
-            this.FARM.Font = new System.Drawing.Font("Arial", 15F);
-            this.FARM.ForeColor = System.Drawing.Color.White;
-            this.FARM.Location = new System.Drawing.Point(131, 28);
-            this.FARM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.FARM.Name = "FARM";
-            this.FARM.Size = new System.Drawing.Size(131, 28);
-            this.FARM.TabIndex = 0;
-            this.FARM.Text = "Farmacias";
             // 
             // Salir
             // 
@@ -396,7 +330,7 @@ namespace UNIDAD_4
             this.Salir.IdleFillColor = System.Drawing.Color.White;
             this.Salir.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Salir.Location = new System.Drawing.Point(651, 427);
+            this.Salir.Location = new System.Drawing.Point(693, 481);
             this.Salir.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Salir.Name = "Salir";
             this.Salir.Size = new System.Drawing.Size(169, 55);
@@ -421,7 +355,7 @@ namespace UNIDAD_4
             this.Eliminar_P.IdleFillColor = System.Drawing.Color.White;
             this.Eliminar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Eliminar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Eliminar_P.Location = new System.Drawing.Point(651, 349);
+            this.Eliminar_P.Location = new System.Drawing.Point(693, 403);
             this.Eliminar_P.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Eliminar_P.Name = "Eliminar_P";
             this.Eliminar_P.Size = new System.Drawing.Size(169, 55);
@@ -446,7 +380,7 @@ namespace UNIDAD_4
             this.Buscar_P.IdleFillColor = System.Drawing.Color.White;
             this.Buscar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Buscar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Buscar_P.Location = new System.Drawing.Point(651, 273);
+            this.Buscar_P.Location = new System.Drawing.Point(693, 327);
             this.Buscar_P.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Buscar_P.Name = "Buscar_P";
             this.Buscar_P.Size = new System.Drawing.Size(169, 55);
@@ -471,12 +405,24 @@ namespace UNIDAD_4
             this.Guardar_P.IdleFillColor = System.Drawing.Color.White;
             this.Guardar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Guardar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Guardar_P.Location = new System.Drawing.Point(651, 205);
+            this.Guardar_P.Location = new System.Drawing.Point(693, 259);
             this.Guardar_P.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Guardar_P.Name = "Guardar_P";
             this.Guardar_P.Size = new System.Drawing.Size(169, 55);
             this.Guardar_P.TabIndex = 63;
             this.Guardar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel7.BackgroundImage")));
+            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1024, 218);
+            this.panel7.TabIndex = 67;
             // 
             // Registro_Medicamento
             // 
@@ -484,7 +430,8 @@ namespace UNIDAD_4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(878, 695);
+            this.ClientSize = new System.Drawing.Size(1024, 789);
+            this.Controls.Add(this.panel7);
             this.Controls.Add(this.Salir);
             this.Controls.Add(this.Eliminar_P);
             this.Controls.Add(this.Buscar_P);
@@ -494,7 +441,6 @@ namespace UNIDAD_4
             this.Controls.Add(this.bunifuIconButton3);
             this.Controls.Add(this.bunifuIconButton2);
             this.Controls.Add(this.bunifuIconButton1);
-            this.Controls.Add(this.panel7);
             this.Controls.Add(this.Precio);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Similares);
@@ -509,8 +455,6 @@ namespace UNIDAD_4
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Registro_Medicamento";
             this.Text = "Registro_Medicamento";
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -532,14 +476,10 @@ namespace UNIDAD_4
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton3;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton2;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton1;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label FARM;
         private Bunifu.Framework.UI.BunifuThinButton2 Salir;
         private Bunifu.Framework.UI.BunifuThinButton2 Eliminar_P;
         private Bunifu.Framework.UI.BunifuThinButton2 Buscar_P;
         private Bunifu.Framework.UI.BunifuThinButton2 Guardar_P;
+        private System.Windows.Forms.Panel panel7;
     }
 }
