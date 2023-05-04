@@ -16,5 +16,20 @@ namespace UNIDAD_4
         {
             InitializeComponent();
         }
+
+        private void bunifuIconButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Registro_Ciudad_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ciudades_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
