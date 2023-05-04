@@ -33,3 +33,16 @@ C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.exe.licenses
 C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.CoreCompileInputs.cache
 C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.exe
 C:\Users\LAB-DSC-ITT\Documents\GitHub\UNIDAD-4.1\obj\Debug\UNIDAD 4.pdb
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Consultas.resources
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Pantalla_Inicio.resources
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Properties.Resources.resources
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Ciudad.resources
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Farmacias.resources
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Medicamento.resources
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Propietarios.resources
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD 4.exe.licenses
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD 4.exe
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD 4.pdb

@@ -47,6 +47,7 @@ namespace UNIDAD_4
             this.Salir = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Buscar_Reg = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuDataGridView1 = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -328,6 +329,10 @@ namespace UNIDAD_4
             this.bunifuDataGridView1.TabIndex = 73;
             this.bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
+            // helpProvider1
+            // 
+            this.helpProvider1.HelpNamespace = "Registro Propietarios";
+            // 
             // Consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -360,5 +365,6 @@ namespace UNIDAD_4
         private Bunifu.Framework.UI.BunifuThinButton2 Salir;
         private Bunifu.Framework.UI.BunifuThinButton2 Buscar_Reg;
         private Bunifu.UI.WinForms.BunifuDataGridView bunifuDataGridView1;
+        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }
