@@ -123,5 +123,12 @@ namespace UNIDAD_4
             Form1.Show();
             this.Hide();
         }
+
+        private void bunifuIconButton6_Click(object sender, EventArgs e)
+        {
+            Form Form6 = new Pantalla_Inicio();
+            Form6.Show();
+            this.Hide();
+        }
     }
 }
