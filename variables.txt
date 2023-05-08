@@ -1,0 +1,31 @@
+create table Registro_Medicamento;
+
+Id_Medicamento varchar(50),
+Comercial_Name varchar(50),
+Generic_Name varchar(50),
+Similar varchar(50),
+Precio int
+
+
+
+  //ASIGNACION DE CADA VARIABLE BASEDATOS, TEXTBOX
+Altas.Parameters.AddWithValue("Id_Prop", Id_Prop.Text);
+Altas.Parameters.AddWithValue("Nombre", Nombre.Text);
+Altas.Parameters.AddWithValue("Direccion", Direccion.Text);
+Altas.Parameters.AddWithValue("Ciudad", Cd_Prop.Text);
+Altas.Parameters.AddWithValue("Tel", Tel_Prop.Text);
+
+ private void Eliminar_P_Click(object sender, EventArgs e)
+        {
+            string baja = "DELETE FROM RegistroProp WHERE Id_Prop = @Id_Prop";
+            Conex.Open();
+            SqlCommand cmdInstr = new SqlCommand(baja, Conex);
+            cmdInstr.Parameters.Add("Id_Prop", Id_Prop.Text);
+            cmdInstr.ExecuteNonQuery();
+            cmdInstr.Dispose();
+            cmdInstr = null;
+            Id_Prop.Clear();
+            Conex.Close();
+            MessageBox.Show("Registro Eliminado");
+        }
+       
