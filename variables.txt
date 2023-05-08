@@ -7,7 +7,10 @@ Similar varchar(50),
 Precio int
 
 
+create table RegistroCd
 
+
+SqlCommand Altas = new SqlCommand("insert into RegistroProp(Id_Prop, Nombre, Direccion, Ciudad, Tel)", Conex);
   //ASIGNACION DE CADA VARIABLE BASEDATOS, TEXTBOX
 Altas.Parameters.AddWithValue("Id_Prop", Id_Prop.Text);
 Altas.Parameters.AddWithValue("Nombre", Nombre.Text);
