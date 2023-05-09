@@ -68,7 +68,7 @@ namespace UNIDAD_4
             Tel_Prop.Clear();
 
         }
-
+        //BOTON PARA SALIR
         private void Salir_Click(object sender, EventArgs e)
         {
             Close();

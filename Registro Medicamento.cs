@@ -121,5 +121,10 @@ namespace UNIDAD_4
             MessageBox.Show("Medicamento Eliminado");
 
         }
+
+        private void Registro_Medicamento_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

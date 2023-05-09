@@ -69,14 +69,14 @@ namespace UNIDAD_4
             this.label1.Location = new System.Drawing.Point(176, 218);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 16);
+            this.label1.Size = new System.Drawing.Size(102, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "No. Farmacia:";
             // 
             // Id_Farmacia
             // 
             this.Id_Farmacia.Location = new System.Drawing.Point(179, 240);
-            this.Id_Farmacia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Id_Farmacia.Margin = new System.Windows.Forms.Padding(2);
             this.Id_Farmacia.Name = "Id_Farmacia";
             this.Id_Farmacia.Size = new System.Drawing.Size(180, 20);
             this.Id_Farmacia.TabIndex = 1;
@@ -84,7 +84,7 @@ namespace UNIDAD_4
             // Id_Propietario
             // 
             this.Id_Propietario.Location = new System.Drawing.Point(179, 297);
-            this.Id_Propietario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Id_Propietario.Margin = new System.Windows.Forms.Padding(2);
             this.Id_Propietario.Name = "Id_Propietario";
             this.Id_Propietario.Size = new System.Drawing.Size(180, 20);
             this.Id_Propietario.TabIndex = 3;
@@ -97,14 +97,14 @@ namespace UNIDAD_4
             this.label2.Location = new System.Drawing.Point(176, 275);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 16);
+            this.label2.Size = new System.Drawing.Size(117, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "No. Propietario:";
             // 
             // Cd_Farmacia
             // 
             this.Cd_Farmacia.Location = new System.Drawing.Point(179, 408);
-            this.Cd_Farmacia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cd_Farmacia.Margin = new System.Windows.Forms.Padding(2);
             this.Cd_Farmacia.Name = "Cd_Farmacia";
             this.Cd_Farmacia.Size = new System.Drawing.Size(98, 20);
             this.Cd_Farmacia.TabIndex = 5;
@@ -117,7 +117,7 @@ namespace UNIDAD_4
             this.label4.Location = new System.Drawing.Point(176, 386);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 16);
+            this.label4.Size = new System.Drawing.Size(61, 16);
             this.label4.TabIndex = 4;
             this.label4.Text = "Ciudad:";
             // 
@@ -129,14 +129,14 @@ namespace UNIDAD_4
             this.label6.Location = new System.Drawing.Point(304, 386);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 16);
+            this.label6.Size = new System.Drawing.Size(60, 16);
             this.label6.TabIndex = 8;
             this.label6.Text = "Estado:";
             // 
             // Estado
             // 
             this.Estado.Location = new System.Drawing.Point(308, 408);
-            this.Estado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Estado.Margin = new System.Windows.Forms.Padding(2);
             this.Estado.Name = "Estado";
             this.Estado.Size = new System.Drawing.Size(98, 20);
             this.Estado.TabIndex = 11;
@@ -144,7 +144,7 @@ namespace UNIDAD_4
             // Sup
             // 
             this.Sup.Location = new System.Drawing.Point(308, 467);
-            this.Sup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Sup.Margin = new System.Windows.Forms.Padding(2);
             this.Sup.Name = "Sup";
             this.Sup.Size = new System.Drawing.Size(98, 20);
             this.Sup.TabIndex = 15;
@@ -157,14 +157,14 @@ namespace UNIDAD_4
             this.label3.Location = new System.Drawing.Point(304, 445);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 16);
+            this.label3.Size = new System.Drawing.Size(84, 16);
             this.label3.TabIndex = 14;
             this.label3.Text = "Superficie:";
             // 
             // Hab
             // 
             this.Hab.Location = new System.Drawing.Point(179, 467);
-            this.Hab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Hab.Margin = new System.Windows.Forms.Padding(2);
             this.Hab.Name = "Hab";
             this.Hab.Size = new System.Drawing.Size(98, 20);
             this.Hab.TabIndex = 13;
@@ -177,14 +177,14 @@ namespace UNIDAD_4
             this.label5.Location = new System.Drawing.Point(176, 445);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 16);
+            this.label5.Size = new System.Drawing.Size(87, 16);
             this.label5.TabIndex = 12;
             this.label5.Text = "Habitantes:";
             // 
             // Direccion_Farmacia
             // 
             this.Direccion_Farmacia.Location = new System.Drawing.Point(179, 356);
-            this.Direccion_Farmacia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Direccion_Farmacia.Margin = new System.Windows.Forms.Padding(2);
             this.Direccion_Farmacia.Name = "Direccion_Farmacia";
             this.Direccion_Farmacia.Size = new System.Drawing.Size(180, 20);
             this.Direccion_Farmacia.TabIndex = 17;
@@ -197,7 +197,7 @@ namespace UNIDAD_4
             this.label7.Location = new System.Drawing.Point(176, 334);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 16);
+            this.label7.Size = new System.Drawing.Size(79, 16);
             this.label7.TabIndex = 16;
             this.label7.Text = "Direccion:";
             // 
@@ -220,11 +220,12 @@ namespace UNIDAD_4
             this.Salir.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir.Location = new System.Drawing.Point(539, 398);
-            this.Salir.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Salir.Margin = new System.Windows.Forms.Padding(5);
             this.Salir.Name = "Salir";
             this.Salir.Size = new System.Drawing.Size(127, 45);
             this.Salir.TabIndex = 53;
             this.Salir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Salir.Click += new System.EventHandler(this.Salir_Click);
             // 
             // Eliminar_P
             // 
@@ -245,11 +246,12 @@ namespace UNIDAD_4
             this.Eliminar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Eliminar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Eliminar_P.Location = new System.Drawing.Point(539, 334);
-            this.Eliminar_P.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Eliminar_P.Margin = new System.Windows.Forms.Padding(5);
             this.Eliminar_P.Name = "Eliminar_P";
             this.Eliminar_P.Size = new System.Drawing.Size(127, 45);
             this.Eliminar_P.TabIndex = 52;
             this.Eliminar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Eliminar_P.Click += new System.EventHandler(this.Eliminar_P_Click);
             // 
             // Buscar_P
             // 
@@ -270,11 +272,12 @@ namespace UNIDAD_4
             this.Buscar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Buscar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Buscar_P.Location = new System.Drawing.Point(539, 273);
-            this.Buscar_P.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Buscar_P.Margin = new System.Windows.Forms.Padding(5);
             this.Buscar_P.Name = "Buscar_P";
             this.Buscar_P.Size = new System.Drawing.Size(127, 45);
             this.Buscar_P.TabIndex = 51;
             this.Buscar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Buscar_P.Click += new System.EventHandler(this.Buscar_P_Click);
             // 
             // Guardar_P
             // 
@@ -295,11 +298,12 @@ namespace UNIDAD_4
             this.Guardar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Guardar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Guardar_P.Location = new System.Drawing.Point(539, 218);
-            this.Guardar_P.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Guardar_P.Margin = new System.Windows.Forms.Padding(5);
             this.Guardar_P.Name = "Guardar_P";
             this.Guardar_P.Size = new System.Drawing.Size(127, 45);
             this.Guardar_P.TabIndex = 50;
             this.Guardar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Guardar_P.Click += new System.EventHandler(this.Guardar_P_Click);
             // 
             // panel7
             // 
@@ -505,7 +509,7 @@ namespace UNIDAD_4
             this.Controls.Add(this.Id_Farmacia);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Registro_Farmacias";
             this.Text = "Registro_Farmacias";
             this.ResumeLayout(false);
