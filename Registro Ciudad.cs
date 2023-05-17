@@ -26,7 +26,7 @@ namespace UNIDAD_4
         {
             //declaracion del comando para agregar a la tabla
             SqlCommand AltaCiudad = new SqlCommand("Insert into RegistroCd()");
-            AltaCiudad.Parameters.AddWithValue();
+            AltaCiudad.Parameters.AddWithValue("",);
             
         }
 
