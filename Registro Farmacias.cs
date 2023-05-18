@@ -23,15 +23,15 @@ namespace UNIDAD_4
 
         private void Guardar_P_Click(object sender, EventArgs e)
         {
-            SqlCommand AltaFarmacia = new SqlCommand("Insert into Registro_Farmacia(Id_Farmacias, Id_Prop, Farm_Direc, Farm_Cd, Farm_Estado, Farm_Hab, Farm_Sup)", Conex);
+            SqlCommand AltaFarmacia = new SqlCommand("Insert into Registro_Farmacia(Id_Farmacias, Id_Prop, Farm_Direc, Ciudad, Estado, Hab, Sup)", Conex);
 
             AltaFarmacia.Parameters.AddWithValue("Id_Farmacias", Id_Farmacia.Text);
             AltaFarmacia.Parameters.AddWithValue("Id_Prop", Id_Propietario.Text);
             AltaFarmacia.Parameters.AddWithValue("Farm_Direc", Direccion_Farmacia.Text);
-            AltaFarmacia.Parameters.AddWithValue("Farm_Cd", Cd_Farmacia.Text);
-            AltaFarmacia.Parameters.AddWithValue("Farm_Estado", Estado.Text);
-            AltaFarmacia.Parameters.AddWithValue("Farm_Hab", Hab.Text);
-            AltaFarmacia.Parameters.AddWithValue("Farm_Sup", Sup.Text);
+            AltaFarmacia.Parameters.AddWithValue("Ciudad", Cd_Farmacia.Text);
+            AltaFarmacia.Parameters.AddWithValue("Estado", Estado.Text);
+            AltaFarmacia.Parameters.AddWithValue("Hab", Hab.Text);
+            AltaFarmacia.Parameters.AddWithValue("Sup", Sup.Text);
 
             //ABRIENDO CONEXION CON LA BASE DE DAATOS
             Conex.Open();
@@ -62,6 +62,13 @@ namespace UNIDAD_4
             String bajaFarm ="DELETE FROM Registro_Farmacias WHERE Id_Farmacias = @Id_Farmacias";
             Conex.Open();
             SqlCommand Instruc = new SqlCommand(bajaFarm, Conex);
+            Instruc.Parameters.Add("Id_Farmacias", Id_Farmacia.Text);
+            Instruc.ExecuteNonQuery();
+            Instruc.Dispose();
+            Instruc = null;
+            Id_Farmacia.Clear();
+            Conex.Close();
+            MessageBox.Show("Registro de Farmacia eliminada");
 
 
         }

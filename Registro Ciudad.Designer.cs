@@ -161,6 +161,7 @@ namespace UNIDAD_4
             this.Salir.Size = new System.Drawing.Size(127, 45);
             this.Salir.TabIndex = 49;
             this.Salir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Salir.Click += new System.EventHandler(this.Salir_Click);
             // 
             // Eliminar_P
             // 
@@ -186,6 +187,7 @@ namespace UNIDAD_4
             this.Eliminar_P.Size = new System.Drawing.Size(127, 45);
             this.Eliminar_P.TabIndex = 48;
             this.Eliminar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Eliminar_P.Click += new System.EventHandler(this.Eliminar_P_Click);
             // 
             // Buscar_P
             // 

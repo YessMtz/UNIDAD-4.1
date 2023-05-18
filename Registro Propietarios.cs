@@ -130,5 +130,11 @@ namespace UNIDAD_4
             Form6.Show();
             this.Hide();
         }
+
+        private void Buscar_P_Click(object sender, EventArgs e)
+        {
+            string buscar = "SELECT FROM RegistroProp WHERE Id_Prop = @Id_Prop";
+
+        }
     }
 }

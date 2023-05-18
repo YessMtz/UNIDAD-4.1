@@ -25,8 +25,23 @@ namespace UNIDAD_4
         private void Guardar_P_Click(object sender, EventArgs e)
         {
             //declaracion del comando para agregar a la tabla
-            SqlCommand AltaCiudad = new SqlCommand("Insert into RegistroCd()");
-            AltaCiudad.Parameters.AddWithValue("",);
+            SqlCommand AltaCiudad = new SqlCommand("Insert into Registro_Cd(Ciudad, Estado, Hab, Sup)", Conex);
+            AltaCiudad.Parameters.AddWithValue("Ciudad", Ciudad.Text);
+            AltaCiudad.Parameters.AddWithValue("Estado", Estado.Text);
+            AltaCiudad.Parameters.AddWithValue("Hab", Hab.Text);
+            AltaCiudad.Parameters.AddWithValue("Sup", Sup.Text);
+
+            //ABRIENDO CONEXION CON LA BASE DE DAATOS
+            Conex.Open();
+            AltaCiudad.ExecuteNonQuery();
+            Conex.Close();
+
+            MessageBox.Show("Registro de Ciudad almacenada correctamente.");
+
+            Ciudad.Clear();
+            Estado.Clear();
+            Hab.Clear();
+            Sup.Clear();
             
         }
 
@@ -47,6 +62,7 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //BOTON SOCIO
         private void FormSocio_Click(object sender, EventArgs e)
         {
             Form Form1 = new Registro_Propietarios();
@@ -54,6 +70,7 @@ namespace UNIDAD_4
                 this.Hide();
         }
 
+        //BOTON FARMACIAS
         private void FormFarmacia_Click(object sender, EventArgs e)
         {
             Form Form2 = new Registro_Farmacias();
@@ -61,6 +78,7 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //BTON MEDICAMENTO
         private void Medicamento_Click(object sender, EventArgs e)
         {
             Form Form3 = new Registro_Medicamento();
@@ -68,6 +86,7 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //BOTON PARA CONSULTAS
         private void Consultas_Click(object sender, EventArgs e)
         {
             Form Form4 = new Consultas();
@@ -75,6 +94,7 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //BOTON PANTALLA DE INICIO
         private void bunifuIconButton6_Click(object sender, EventArgs e)
         {
             Form Form5 = new Pantalla_Inicio();
@@ -82,6 +102,25 @@ namespace UNIDAD_4
             this.Hide();
         }
 
-        
+        //BOTON DE SALID
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void Eliminar_P_Click(object sender, EventArgs e)
+        {
+            string EliminarCd = "DELETE FROM Regristro_Cd WHERE Ciudad = @Ciudad";
+            Conex.Open();
+            SqlCommand DeleteCd = new SqlCommand(EliminarCd, Conex);
+            DeleteCd.Parameters.Add("Ciudad", Ciudad.Text);
+            DeleteCd.ExecuteNonQuery();
+            DeleteCd.Dispose();
+            DeleteCd = null;
+            Ciudad.Clear();
+            Conex.Close();
+            MessageBox.Show("Registro de Ciudad eliminado correctamente.");
+
+        }
     }
 }
