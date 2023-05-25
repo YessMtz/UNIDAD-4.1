@@ -18,8 +18,8 @@ namespace UNIDAD_4
             InitializeComponent();
         }
 
-        //SqlConnection Conex = new SqlConnection(@"(Winneman64\SQLEXPRESS; Initial Catalog=FarmaciasMP; integrated security=true");
-        SqlConnection Conex = new SqlConnection("Data Source=.\\SQLEXPRESS; Initial Catalog=FarmaciasMP  ; Integrated Security=SSPI");
+        SqlConnection Conex = new SqlConnection(@"Winneman64=.\SQLEXPRESS; Initial Catalog=FarmaciasMP; integrated security=true");
+        //SqlConnection Conex = new SqlConnection("Data Source=.\\SQLEXPRESS; Initial Catalog=FarmaciasMP  ; Integrated Security=SSPI");
 
 
         private void Registro_Propietarios_Load(object sender, EventArgs e)
@@ -87,8 +87,18 @@ namespace UNIDAD_4
             Conex.Close();
             MessageBox.Show("Registro Eliminado");
         }
+       
+        private void Buscar_P_Click(object sender, EventArgs e)
+        {
+            string buscar = "SELECT FROM RegistroProp WHERE Id_Prop = @Id_Prop";
+            Conex.Open();
+            SqlCommand nuevaBusqueda = new SqlCommand(buscar, Conex);
+            nuevaBusqueda.Parameters.AddWithValue("Id_Prop", Id_Prop.Text);
+            SqlDataReader leerB = nuevaBusqueda.ExecuteReader();
+            MessageBox.Show(Convert.ToString(leerB));
+            Conex.Close();
+        }        
         
-
         private void Consultas_Click(object sender, EventArgs e)
         {
             Form Form2 = new Consultas();
@@ -131,10 +141,6 @@ namespace UNIDAD_4
             this.Hide();
         }
 
-        private void Buscar_P_Click(object sender, EventArgs e)
-        {
-            string buscar = "SELECT FROM RegistroProp WHERE Id_Prop = @Id_Prop";
 
-        }
     }
 }
