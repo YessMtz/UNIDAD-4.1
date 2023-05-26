@@ -18,9 +18,11 @@ namespace UNIDAD_4
             InitializeComponent();
         }
 
-        SqlConnection Conex = new SqlConnection(@"Server=.\SQLEXPRESS; Initial Catalog=Farmacias_Basedatos; integrated security=true");
+        //SqlConnection Conex = new SqlConnection(@"Server=.\SQLEXPRESS; Initial Catalog=Farmacias_Basedatos; integrated security=true");
         //  SqlConnection conexionLo = new SqlConnection("Data Source=.\\SQLEXPRESS; Initial Catalog=biblioteca; Integrated Security=SSPI");
-        
+
+        SqlConnection Conex = new SqlConnection("Data Source = (local); Initial Catalog = FarmaciasMP;Integrated Security = True");
+
         //BOTON GUARDAR
         private void Guardar_P_Click(object sender, EventArgs e)
         {

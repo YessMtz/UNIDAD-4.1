@@ -47,7 +47,9 @@ namespace UNIDAD_4
             this.Medicamento = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.FormFarmacia = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.FormSocio = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.presentacionConsultas = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.presentacionConsultas)).BeginInit();
             this.SuspendLayout();
             // 
             // panel7
@@ -80,7 +82,7 @@ namespace UNIDAD_4
             this.Salir.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir.Location = new System.Drawing.Point(716, 436);
-            this.Salir.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Salir.Margin = new System.Windows.Forms.Padding(5);
             this.Salir.Name = "Salir";
             this.Salir.Size = new System.Drawing.Size(127, 45);
             this.Salir.TabIndex = 72;
@@ -106,7 +108,7 @@ namespace UNIDAD_4
             this.Buscar_Reg.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Buscar_Reg.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Buscar_Reg.Location = new System.Drawing.Point(716, 382);
-            this.Buscar_Reg.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Buscar_Reg.Margin = new System.Windows.Forms.Padding(5);
             this.Buscar_Reg.Name = "Buscar_Reg";
             this.Buscar_Reg.Size = new System.Drawing.Size(127, 44);
             this.Buscar_Reg.TabIndex = 70;
@@ -164,7 +166,7 @@ namespace UNIDAD_4
             this.bunifuDataGridView1.HeaderBgColor = System.Drawing.Color.Empty;
             this.bunifuDataGridView1.HeaderForeColor = System.Drawing.Color.White;
             this.bunifuDataGridView1.Location = new System.Drawing.Point(154, 256);
-            this.bunifuDataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuDataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuDataGridView1.Name = "bunifuDataGridView1";
             this.bunifuDataGridView1.RowHeadersVisible = false;
             this.bunifuDataGridView1.RowHeadersWidth = 51;
@@ -339,12 +341,22 @@ namespace UNIDAD_4
             this.FormSocio.TabIndex = 74;
             this.FormSocio.Click += new System.EventHandler(this.FormSocio_Click);
             // 
+            // presentacionConsultas
+            // 
+            this.presentacionConsultas.BackgroundColor = System.Drawing.Color.DarkOrange;
+            this.presentacionConsultas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.presentacionConsultas.Location = new System.Drawing.Point(154, 256);
+            this.presentacionConsultas.Name = "presentacionConsultas";
+            this.presentacionConsultas.Size = new System.Drawing.Size(451, 307);
+            this.presentacionConsultas.TabIndex = 79;
+            // 
             // Consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(926, 654);
+            this.Controls.Add(this.presentacionConsultas);
             this.Controls.Add(this.Consulta);
             this.Controls.Add(this.Ciudades);
             this.Controls.Add(this.Medicamento);
@@ -354,10 +366,11 @@ namespace UNIDAD_4
             this.Controls.Add(this.Salir);
             this.Controls.Add(this.Buscar_Reg);
             this.Controls.Add(this.panel7);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Consultas";
             this.Text = "Consultas";
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.presentacionConsultas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -372,5 +385,6 @@ namespace UNIDAD_4
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Medicamento;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton FormFarmacia;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton FormSocio;
+        private System.Windows.Forms.DataGridView presentacionConsultas;
     }
 }

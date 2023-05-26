@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.IdentityModel.Claims;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace UNIDAD_4
@@ -17,6 +11,8 @@ namespace UNIDAD_4
         {
             InitializeComponent();
         }
+
+        SqlConnection Conex = new SqlConnection("Data Source = (local); Initial Catalog = FarmaciasMP; Integrated Security = True");
 
         private void Salir_Click(object sender, EventArgs e)
         {
@@ -56,6 +52,35 @@ namespace UNIDAD_4
             Form Form4 = new Consultas();
             Form4.ShowDialog();
             this.Hide();
+        }
+
+        //TABLA REGISTRO PROPIEDAD
+            public DataTable ConsultaPropietarios()
+        {
+            string query = "Select * from RegistroProp";
+            SqlCommand instrucciones = new SqlCommand(query, Conex);
+            SqlDataAdapter data = new SqlDataAdapter(instrucciones);
+            DataTable tablaPropietarios = new DataTable();
+            data.Fill(tablaPropietarios);
+            return tablaPropietarios;
+        }
+
+        //actualizar tabla con los datos
+        public void Tabla_Propietarios()
+        {
+            presentacionConsultas.DataSource = ConsultaPropietarios();
+        }
+
+        //TABLA REGISTRO CIUDAD
+        public DataTable ConsultaCiudad()
+        {
+            string registro = "Select * From Registro_Cd";
+            SqlCommand instrucciones = new SqlCommand(registro, Conex);
+            SqlDataAdapter data = new SqlDataAdapter(instrucciones);
+            DataTable tablaCiudad = new DataTable();
+            data.Fill(tablaCiudad);
+            return tablaCiudad;
+
         }
     }
 }
