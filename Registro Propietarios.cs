@@ -18,9 +18,10 @@ namespace UNIDAD_4
             InitializeComponent();
         }
 
-        SqlConnection Conex = new SqlConnection(@"Winneman64=.\SQLEXPRESS; Initial Catalog=FarmaciasMP; integrated security=true");
-        //SqlConnection Conex = new SqlConnection("Data Source=.\\SQLEXPRESS; Initial Catalog=FarmaciasMP  ; Integrated Security=SSPI");
+        //SqlConnection Conex = new SqlConnection(@"server = .DESKTOP-LRR3RR8/sqlexpres; Initial Catalog = FarmaciasMP; Integrated Security = True");
+        //SqlConnection Conex = new SqlConnection("Data Source =(local); Initial Catalog = FarmaciasMP; Integrated Security = True");
 
+        SqlConnection Conex = new SqlConnection("Data Source = (local); Initial Catalog = FarmaciasMP; Integrated Security = True");
 
         private void Registro_Propietarios_Load(object sender, EventArgs e)
         {

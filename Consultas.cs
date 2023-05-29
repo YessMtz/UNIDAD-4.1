@@ -12,6 +12,9 @@ namespace UNIDAD_4
             InitializeComponent();
         }
 
+        //SqlConnection Conex = new SqlConnection(@"server = .DESKTOP-LRR3RR8/sqlexpres; Initial Catalog = FarmaciasMP; Integrated Security = True");
+        //SqlConnection Conex = new SqlConnection("Data Source =(local); Initial Catalog = FarmaciasMP; Integrated Security = True");
+
         SqlConnection Conex = new SqlConnection("Data Source = (local); Initial Catalog = FarmaciasMP; Integrated Security = True");
 
         private void Salir_Click(object sender, EventArgs e)
@@ -55,7 +58,7 @@ namespace UNIDAD_4
         }
 
         //TABLA REGISTRO PROPIEDAD
-            public DataTable ConsultaPropietarios()
+        public DataTable ConsultaPropietarios()
         {
             string query = "Select * from RegistroProp";
             SqlCommand instrucciones = new SqlCommand(query, Conex);
@@ -80,6 +83,75 @@ namespace UNIDAD_4
             DataTable tablaCiudad = new DataTable();
             data.Fill(tablaCiudad);
             return tablaCiudad;
+
+        }
+
+        //ACTULIZACION DE LOS DATOS CIUDAD
+        public void Tabla_Ciudad()
+        {
+            presentacionConsultas.DataSource = ConsultaCiudad();
+        }
+
+        //TABLA REGISTRO MEDICAMENTOS
+        public DataTable ConsultaMedicamentos()
+        {
+
+            string registro = "Select * From Registro_Medicamentos";
+            SqlCommand instrucciones = new SqlCommand(registro, Conex);
+            SqlDataAdapter data = new SqlDataAdapter(instrucciones);
+            DataTable tablaMedicamentos = new DataTable();
+            data.Fill(tablaMedicamentos);
+            return tablaMedicamentos;
+
+        }
+
+        public void Tabla_Medicamentos()
+        {
+            presentacionConsultas.DataSource = ConsultaMedicamentos();
+        }
+
+        //TABLA REGISTRO FARMACIAS
+        public DataTable ConsultaFarmacias()
+        {
+            string  registro = "Select * From Registro_Farmacias";
+            SqlCommand instrucciones = new SqlCommand(registro, Conex);
+            SqlDataAdapter data = new SqlDataAdapter(instrucciones);
+            DataTable tablaFarmacias = new DataTable();
+            data.Fill(tablaFarmacias);
+            return tablaFarmacias;
+        }
+
+        public void Tabla_Farmacias()
+            {
+            presentacionConsultas.DataSource = ConsultaFarmacias();
+            }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Buscar_Reg_Click(object sender, EventArgs e)
+        {
+            string opcion= Convert.ToString(comboBox1.SelectedItem);
+            if (opcion == "1(Propietarios)")
+            {
+                ConsultaPropietarios();
+            }
+
+            else if (opcion == "2(Ciudad)")
+            {
+                ConsultaCiudad();
+            }
+
+            else if (opcion == "2(Medicamentos)")
+            {
+                ConsultaMedicamentos();
+            }
+            else if (opcion == "4(Farmacias)")
+            {
+                ConsultaFarmacias();
+            }
 
         }
     }
