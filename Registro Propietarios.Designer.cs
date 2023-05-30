@@ -62,7 +62,7 @@ namespace UNIDAD_4
             // Direccion
             // 
             this.Direccion.Location = new System.Drawing.Point(188, 394);
-            this.Direccion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Direccion.Margin = new System.Windows.Forms.Padding(2);
             this.Direccion.Name = "Direccion";
             this.Direccion.Size = new System.Drawing.Size(247, 20);
             this.Direccion.TabIndex = 35;
@@ -75,14 +75,14 @@ namespace UNIDAD_4
             this.label7.Location = new System.Drawing.Point(184, 372);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 16);
+            this.label7.Size = new System.Drawing.Size(78, 16);
             this.label7.TabIndex = 34;
             this.label7.Text = "Direccion:";
             // 
             // Tel_Prop
             // 
             this.Tel_Prop.Location = new System.Drawing.Point(188, 506);
-            this.Tel_Prop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Tel_Prop.Margin = new System.Windows.Forms.Padding(2);
             this.Tel_Prop.Name = "Tel_Prop";
             this.Tel_Prop.Size = new System.Drawing.Size(165, 20);
             this.Tel_Prop.TabIndex = 31;
@@ -95,14 +95,14 @@ namespace UNIDAD_4
             this.label5.Location = new System.Drawing.Point(184, 484);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 16);
+            this.label5.Size = new System.Drawing.Size(72, 16);
             this.label5.TabIndex = 30;
             this.label5.Text = "Telefono:";
             // 
             // Cd_Prop
             // 
             this.Cd_Prop.Location = new System.Drawing.Point(188, 446);
-            this.Cd_Prop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cd_Prop.Margin = new System.Windows.Forms.Padding(2);
             this.Cd_Prop.Name = "Cd_Prop";
             this.Cd_Prop.Size = new System.Drawing.Size(165, 20);
             this.Cd_Prop.TabIndex = 27;
@@ -115,14 +115,14 @@ namespace UNIDAD_4
             this.label4.Location = new System.Drawing.Point(184, 424);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 16);
+            this.label4.Size = new System.Drawing.Size(60, 16);
             this.label4.TabIndex = 26;
             this.label4.Text = "Ciudad:";
             // 
             // Nombre
             // 
             this.Nombre.Location = new System.Drawing.Point(188, 336);
-            this.Nombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Nombre.Margin = new System.Windows.Forms.Padding(2);
             this.Nombre.Name = "Nombre";
             this.Nombre.Size = new System.Drawing.Size(247, 20);
             this.Nombre.TabIndex = 25;
@@ -135,14 +135,14 @@ namespace UNIDAD_4
             this.label2.Location = new System.Drawing.Point(184, 314);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 16);
+            this.label2.Size = new System.Drawing.Size(170, 16);
             this.label2.TabIndex = 24;
             this.label2.Text = "Nombre de Propietario:";
             // 
             // Id_Prop
             // 
             this.Id_Prop.Location = new System.Drawing.Point(188, 277);
-            this.Id_Prop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Id_Prop.Margin = new System.Windows.Forms.Padding(2);
             this.Id_Prop.Name = "Id_Prop";
             this.Id_Prop.Size = new System.Drawing.Size(247, 20);
             this.Id_Prop.TabIndex = 23;
@@ -155,7 +155,7 @@ namespace UNIDAD_4
             this.label1.Location = new System.Drawing.Point(184, 255);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 16);
+            this.label1.Size = new System.Drawing.Size(112, 16);
             this.label1.TabIndex = 22;
             this.label1.Text = "No. Propietario";
             // 
@@ -178,7 +178,7 @@ namespace UNIDAD_4
             this.Guardar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Guardar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Guardar_P.Location = new System.Drawing.Point(609, 240);
-            this.Guardar_P.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Guardar_P.Margin = new System.Windows.Forms.Padding(5);
             this.Guardar_P.Name = "Guardar_P";
             this.Guardar_P.Size = new System.Drawing.Size(127, 45);
             this.Guardar_P.TabIndex = 42;
@@ -204,7 +204,7 @@ namespace UNIDAD_4
             this.Buscar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Buscar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Buscar_P.Location = new System.Drawing.Point(609, 294);
-            this.Buscar_P.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Buscar_P.Margin = new System.Windows.Forms.Padding(5);
             this.Buscar_P.Name = "Buscar_P";
             this.Buscar_P.Size = new System.Drawing.Size(127, 45);
             this.Buscar_P.TabIndex = 43;
@@ -230,7 +230,7 @@ namespace UNIDAD_4
             this.Eliminar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Eliminar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Eliminar_P.Location = new System.Drawing.Point(609, 358);
-            this.Eliminar_P.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Eliminar_P.Margin = new System.Windows.Forms.Padding(5);
             this.Eliminar_P.Name = "Eliminar_P";
             this.Eliminar_P.Size = new System.Drawing.Size(127, 45);
             this.Eliminar_P.TabIndex = 44;
@@ -256,7 +256,7 @@ namespace UNIDAD_4
             this.Salir_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir_P.Location = new System.Drawing.Point(609, 419);
-            this.Salir_P.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Salir_P.Margin = new System.Windows.Forms.Padding(5);
             this.Salir_P.Name = "Salir_P";
             this.Salir_P.Size = new System.Drawing.Size(127, 45);
             this.Salir_P.TabIndex = 45;
@@ -298,7 +298,7 @@ namespace UNIDAD_4
             this.Consultas.Image = ((System.Drawing.Image)(resources.GetObject("Consultas.Image")));
             this.Consultas.ImageMargin = new System.Windows.Forms.Padding(0);
             this.Consultas.Location = new System.Drawing.Point(25, 548);
-            this.Consultas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Consultas.Margin = new System.Windows.Forms.Padding(2);
             this.Consultas.Name = "Consultas";
             this.Consultas.RoundBorders = true;
             this.Consultas.ShowBorders = true;
@@ -331,7 +331,7 @@ namespace UNIDAD_4
             this.Ciudades.Image = ((System.Drawing.Image)(resources.GetObject("Ciudades.Image")));
             this.Ciudades.ImageMargin = new System.Windows.Forms.Padding(0);
             this.Ciudades.Location = new System.Drawing.Point(25, 462);
-            this.Ciudades.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Ciudades.Margin = new System.Windows.Forms.Padding(2);
             this.Ciudades.Name = "Ciudades";
             this.Ciudades.RoundBorders = true;
             this.Ciudades.ShowBorders = true;
@@ -364,7 +364,7 @@ namespace UNIDAD_4
             this.Medicamento.Image = ((System.Drawing.Image)(resources.GetObject("Medicamento.Image")));
             this.Medicamento.ImageMargin = new System.Windows.Forms.Padding(0);
             this.Medicamento.Location = new System.Drawing.Point(25, 375);
-            this.Medicamento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Medicamento.Margin = new System.Windows.Forms.Padding(2);
             this.Medicamento.Name = "Medicamento";
             this.Medicamento.RoundBorders = true;
             this.Medicamento.ShowBorders = true;
@@ -397,7 +397,7 @@ namespace UNIDAD_4
             this.FormFarmacia.Image = ((System.Drawing.Image)(resources.GetObject("FormFarmacia.Image")));
             this.FormFarmacia.ImageMargin = new System.Windows.Forms.Padding(0);
             this.FormFarmacia.Location = new System.Drawing.Point(25, 287);
-            this.FormFarmacia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormFarmacia.Margin = new System.Windows.Forms.Padding(2);
             this.FormFarmacia.Name = "FormFarmacia";
             this.FormFarmacia.RoundBorders = true;
             this.FormFarmacia.ShowBorders = true;
@@ -430,7 +430,7 @@ namespace UNIDAD_4
             this.FormSocio.Image = ((System.Drawing.Image)(resources.GetObject("FormSocio.Image")));
             this.FormSocio.ImageMargin = new System.Windows.Forms.Padding(0);
             this.FormSocio.Location = new System.Drawing.Point(25, 193);
-            this.FormSocio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormSocio.Margin = new System.Windows.Forms.Padding(2);
             this.FormSocio.Name = "FormSocio";
             this.FormSocio.RoundBorders = true;
             this.FormSocio.ShowBorders = true;
@@ -463,7 +463,7 @@ namespace UNIDAD_4
             this.bunifuIconButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton6.Image")));
             this.bunifuIconButton6.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuIconButton6.Location = new System.Drawing.Point(25, 658);
-            this.bunifuIconButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuIconButton6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuIconButton6.Name = "bunifuIconButton6";
             this.bunifuIconButton6.RoundBorders = true;
             this.bunifuIconButton6.ShowBorders = true;
@@ -479,7 +479,7 @@ namespace UNIDAD_4
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(827, 609);
+            this.ClientSize = new System.Drawing.Size(827, 632);
             this.Controls.Add(this.bunifuIconButton6);
             this.Controls.Add(this.Consultas);
             this.Controls.Add(this.panel7);
