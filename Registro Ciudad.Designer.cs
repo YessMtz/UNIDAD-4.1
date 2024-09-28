@@ -30,23 +30,23 @@ namespace UNIDAD_4
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro_Ciudad));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            this.Sup = new System.Windows.Forms.TextBox();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            this.superReg = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.Hab = new System.Windows.Forms.TextBox();
+            this.habReg = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.Estado = new System.Windows.Forms.TextBox();
+            this.estadoReg = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.Ciudad = new System.Windows.Forms.TextBox();
+            this.ciudadReg = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Salir = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Eliminar_P = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.Buscar_P = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.modificar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Guardar_P = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel7 = new System.Windows.Forms.Panel();
             this.Consultas = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
@@ -55,85 +55,83 @@ namespace UNIDAD_4
             this.FormFarmacia = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.FormSocio = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuIconButton6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.idCiudad = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Sup
+            // superReg
             // 
-            this.Sup.Location = new System.Drawing.Point(175, 510);
-            this.Sup.Margin = new System.Windows.Forms.Padding(2);
-            this.Sup.Name = "Sup";
-            this.Sup.Size = new System.Drawing.Size(168, 20);
-            this.Sup.TabIndex = 29;
+            this.superReg.Location = new System.Drawing.Point(233, 628);
+            this.superReg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.superReg.Name = "superReg";
+            this.superReg.Size = new System.Drawing.Size(223, 22);
+            this.superReg.TabIndex = 29;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(171, 488);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(228, 601);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 19);
+            this.label3.Size = new System.Drawing.Size(112, 24);
             this.label3.TabIndex = 28;
             this.label3.Text = "Superficie:";
             // 
-            // Hab
+            // habReg
             // 
-            this.Hab.Location = new System.Drawing.Point(175, 453);
-            this.Hab.Margin = new System.Windows.Forms.Padding(2);
-            this.Hab.Name = "Hab";
-            this.Hab.Size = new System.Drawing.Size(174, 20);
-            this.Hab.TabIndex = 27;
+            this.habReg.Location = new System.Drawing.Point(233, 558);
+            this.habReg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.habReg.Name = "habReg";
+            this.habReg.Size = new System.Drawing.Size(231, 22);
+            this.habReg.TabIndex = 27;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(171, 432);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(228, 532);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 19);
+            this.label5.Size = new System.Drawing.Size(118, 24);
             this.label5.TabIndex = 26;
             this.label5.Text = "Habitantes:";
             // 
-            // Estado
+            // estadoReg
             // 
-            this.Estado.Location = new System.Drawing.Point(174, 390);
-            this.Estado.Margin = new System.Windows.Forms.Padding(2);
-            this.Estado.Name = "Estado";
-            this.Estado.Size = new System.Drawing.Size(174, 20);
-            this.Estado.TabIndex = 25;
+            this.estadoReg.Location = new System.Drawing.Point(232, 480);
+            this.estadoReg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.estadoReg.Name = "estadoReg";
+            this.estadoReg.Size = new System.Drawing.Size(231, 22);
+            this.estadoReg.TabIndex = 25;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(170, 368);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(227, 453);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 19);
+            this.label6.Size = new System.Drawing.Size(83, 24);
             this.label6.TabIndex = 24;
             this.label6.Text = "Estado:";
             // 
-            // Ciudad
+            // ciudadReg
             // 
-            this.Ciudad.Location = new System.Drawing.Point(174, 335);
-            this.Ciudad.Margin = new System.Windows.Forms.Padding(2);
-            this.Ciudad.Name = "Ciudad";
-            this.Ciudad.Size = new System.Drawing.Size(174, 20);
-            this.Ciudad.TabIndex = 23;
+            this.ciudadReg.Location = new System.Drawing.Point(232, 412);
+            this.ciudadReg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ciudadReg.Name = "ciudadReg";
+            this.ciudadReg.Size = new System.Drawing.Size(231, 22);
+            this.ciudadReg.TabIndex = 23;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(170, 313);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(227, 385);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 19);
+            this.label4.Size = new System.Drawing.Size(83, 24);
             this.label4.TabIndex = 22;
             this.label4.Text = "Ciudad:";
             // 
@@ -155,10 +153,10 @@ namespace UNIDAD_4
             this.Salir.IdleFillColor = System.Drawing.Color.White;
             this.Salir.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Salir.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Salir.Location = new System.Drawing.Point(602, 436);
-            this.Salir.Margin = new System.Windows.Forms.Padding(5);
+            this.Salir.Location = new System.Drawing.Point(803, 570);
+            this.Salir.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Salir.Name = "Salir";
-            this.Salir.Size = new System.Drawing.Size(127, 45);
+            this.Salir.Size = new System.Drawing.Size(169, 55);
             this.Salir.TabIndex = 49;
             this.Salir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Salir.Click += new System.EventHandler(this.Salir_Click);
@@ -181,38 +179,39 @@ namespace UNIDAD_4
             this.Eliminar_P.IdleFillColor = System.Drawing.Color.White;
             this.Eliminar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Eliminar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Eliminar_P.Location = new System.Drawing.Point(602, 372);
-            this.Eliminar_P.Margin = new System.Windows.Forms.Padding(5);
+            this.Eliminar_P.Location = new System.Drawing.Point(803, 447);
+            this.Eliminar_P.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Eliminar_P.Name = "Eliminar_P";
-            this.Eliminar_P.Size = new System.Drawing.Size(127, 45);
+            this.Eliminar_P.Size = new System.Drawing.Size(169, 55);
             this.Eliminar_P.TabIndex = 48;
             this.Eliminar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Eliminar_P.Click += new System.EventHandler(this.Eliminar_P_Click);
             // 
-            // Buscar_P
+            // modificar
             // 
-            this.Buscar_P.ActiveBorderThickness = 1;
-            this.Buscar_P.ActiveCornerRadius = 20;
-            this.Buscar_P.ActiveFillColor = System.Drawing.Color.LightSalmon;
-            this.Buscar_P.ActiveForecolor = System.Drawing.Color.Transparent;
-            this.Buscar_P.ActiveLineColor = System.Drawing.Color.Transparent;
-            this.Buscar_P.BackColor = System.Drawing.SystemColors.Control;
-            this.Buscar_P.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Buscar_P.BackgroundImage")));
-            this.Buscar_P.ButtonText = "Buscar";
-            this.Buscar_P.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Buscar_P.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Buscar_P.ForeColor = System.Drawing.Color.Transparent;
-            this.Buscar_P.IdleBorderThickness = 1;
-            this.Buscar_P.IdleCornerRadius = 20;
-            this.Buscar_P.IdleFillColor = System.Drawing.Color.White;
-            this.Buscar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Buscar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Buscar_P.Location = new System.Drawing.Point(602, 310);
-            this.Buscar_P.Margin = new System.Windows.Forms.Padding(5);
-            this.Buscar_P.Name = "Buscar_P";
-            this.Buscar_P.Size = new System.Drawing.Size(127, 45);
-            this.Buscar_P.TabIndex = 47;
-            this.Buscar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.modificar.ActiveBorderThickness = 1;
+            this.modificar.ActiveCornerRadius = 20;
+            this.modificar.ActiveFillColor = System.Drawing.Color.LightSalmon;
+            this.modificar.ActiveForecolor = System.Drawing.Color.Transparent;
+            this.modificar.ActiveLineColor = System.Drawing.Color.Transparent;
+            this.modificar.BackColor = System.Drawing.SystemColors.Control;
+            this.modificar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("modificar.BackgroundImage")));
+            this.modificar.ButtonText = "Modificar";
+            this.modificar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.modificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modificar.ForeColor = System.Drawing.Color.Transparent;
+            this.modificar.IdleBorderThickness = 1;
+            this.modificar.IdleCornerRadius = 20;
+            this.modificar.IdleFillColor = System.Drawing.Color.White;
+            this.modificar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.modificar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.modificar.Location = new System.Drawing.Point(803, 381);
+            this.modificar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.modificar.Name = "modificar";
+            this.modificar.Size = new System.Drawing.Size(169, 55);
+            this.modificar.TabIndex = 47;
+            this.modificar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.modificar.Click += new System.EventHandler(this.Buscar_P_Click);
             // 
             // Guardar_P
             // 
@@ -232,10 +231,10 @@ namespace UNIDAD_4
             this.Guardar_P.IdleFillColor = System.Drawing.Color.White;
             this.Guardar_P.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Guardar_P.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Guardar_P.Location = new System.Drawing.Point(602, 255);
-            this.Guardar_P.Margin = new System.Windows.Forms.Padding(5);
+            this.Guardar_P.Location = new System.Drawing.Point(803, 314);
+            this.Guardar_P.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Guardar_P.Name = "Guardar_P";
-            this.Guardar_P.Size = new System.Drawing.Size(127, 45);
+            this.Guardar_P.Size = new System.Drawing.Size(169, 55);
             this.Guardar_P.TabIndex = 46;
             this.Guardar_P.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Guardar_P.Click += new System.EventHandler(this.Guardar_P_Click);
@@ -247,8 +246,9 @@ namespace UNIDAD_4
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(823, 180);
+            this.panel7.Size = new System.Drawing.Size(1024, 222);
             this.panel7.TabIndex = 51;
             // 
             // Consultas
@@ -266,20 +266,20 @@ namespace UNIDAD_4
             this.Consultas.ColorContrastOnClick = 30;
             this.Consultas.ColorContrastOnHover = 30;
             this.Consultas.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.Consultas.CustomizableEdges = borderEdges7;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.Consultas.CustomizableEdges = borderEdges1;
             this.Consultas.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Consultas.Image = ((System.Drawing.Image)(resources.GetObject("Consultas.Image")));
             this.Consultas.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Consultas.Location = new System.Drawing.Point(28, 549);
-            this.Consultas.Margin = new System.Windows.Forms.Padding(2);
+            this.Consultas.Location = new System.Drawing.Point(37, 676);
+            this.Consultas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Consultas.Name = "Consultas";
             this.Consultas.RoundBorders = true;
             this.Consultas.ShowBorders = true;
-            this.Consultas.Size = new System.Drawing.Size(75, 75);
+            this.Consultas.Size = new System.Drawing.Size(100, 100);
             this.Consultas.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Consultas.TabIndex = 61;
             this.Consultas.Click += new System.EventHandler(this.Consultas_Click);
@@ -299,20 +299,20 @@ namespace UNIDAD_4
             this.Ciudades.ColorContrastOnClick = 30;
             this.Ciudades.ColorContrastOnHover = 30;
             this.Ciudades.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.Ciudades.CustomizableEdges = borderEdges8;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.Ciudades.CustomizableEdges = borderEdges2;
             this.Ciudades.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Ciudades.Image = ((System.Drawing.Image)(resources.GetObject("Ciudades.Image")));
             this.Ciudades.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Ciudades.Location = new System.Drawing.Point(28, 463);
-            this.Ciudades.Margin = new System.Windows.Forms.Padding(2);
+            this.Ciudades.Location = new System.Drawing.Point(37, 570);
+            this.Ciudades.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Ciudades.Name = "Ciudades";
             this.Ciudades.RoundBorders = true;
             this.Ciudades.ShowBorders = true;
-            this.Ciudades.Size = new System.Drawing.Size(75, 75);
+            this.Ciudades.Size = new System.Drawing.Size(100, 100);
             this.Ciudades.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Ciudades.TabIndex = 60;
             this.Ciudades.Click += new System.EventHandler(this.Ciudades_Click);
@@ -332,20 +332,20 @@ namespace UNIDAD_4
             this.Medicamento.ColorContrastOnClick = 30;
             this.Medicamento.ColorContrastOnHover = 30;
             this.Medicamento.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.Medicamento.CustomizableEdges = borderEdges9;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.Medicamento.CustomizableEdges = borderEdges3;
             this.Medicamento.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Medicamento.Image = ((System.Drawing.Image)(resources.GetObject("Medicamento.Image")));
             this.Medicamento.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Medicamento.Location = new System.Drawing.Point(28, 376);
-            this.Medicamento.Margin = new System.Windows.Forms.Padding(2);
+            this.Medicamento.Location = new System.Drawing.Point(37, 463);
+            this.Medicamento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Medicamento.Name = "Medicamento";
             this.Medicamento.RoundBorders = true;
             this.Medicamento.ShowBorders = true;
-            this.Medicamento.Size = new System.Drawing.Size(75, 75);
+            this.Medicamento.Size = new System.Drawing.Size(100, 100);
             this.Medicamento.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Medicamento.TabIndex = 59;
             this.Medicamento.Click += new System.EventHandler(this.Medicamento_Click);
@@ -365,20 +365,20 @@ namespace UNIDAD_4
             this.FormFarmacia.ColorContrastOnClick = 30;
             this.FormFarmacia.ColorContrastOnHover = 30;
             this.FormFarmacia.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.FormFarmacia.CustomizableEdges = borderEdges10;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.FormFarmacia.CustomizableEdges = borderEdges4;
             this.FormFarmacia.DialogResult = System.Windows.Forms.DialogResult.None;
             this.FormFarmacia.Image = ((System.Drawing.Image)(resources.GetObject("FormFarmacia.Image")));
             this.FormFarmacia.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.FormFarmacia.Location = new System.Drawing.Point(28, 288);
-            this.FormFarmacia.Margin = new System.Windows.Forms.Padding(2);
+            this.FormFarmacia.Location = new System.Drawing.Point(37, 354);
+            this.FormFarmacia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FormFarmacia.Name = "FormFarmacia";
             this.FormFarmacia.RoundBorders = true;
             this.FormFarmacia.ShowBorders = true;
-            this.FormFarmacia.Size = new System.Drawing.Size(75, 75);
+            this.FormFarmacia.Size = new System.Drawing.Size(100, 100);
             this.FormFarmacia.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.FormFarmacia.TabIndex = 58;
             this.FormFarmacia.Click += new System.EventHandler(this.FormFarmacia_Click);
@@ -398,20 +398,20 @@ namespace UNIDAD_4
             this.FormSocio.ColorContrastOnClick = 30;
             this.FormSocio.ColorContrastOnHover = 30;
             this.FormSocio.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.FormSocio.CustomizableEdges = borderEdges11;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.FormSocio.CustomizableEdges = borderEdges5;
             this.FormSocio.DialogResult = System.Windows.Forms.DialogResult.None;
             this.FormSocio.Image = ((System.Drawing.Image)(resources.GetObject("FormSocio.Image")));
             this.FormSocio.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.FormSocio.Location = new System.Drawing.Point(28, 194);
-            this.FormSocio.Margin = new System.Windows.Forms.Padding(2);
+            this.FormSocio.Location = new System.Drawing.Point(37, 239);
+            this.FormSocio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FormSocio.Name = "FormSocio";
             this.FormSocio.RoundBorders = true;
             this.FormSocio.ShowBorders = true;
-            this.FormSocio.Size = new System.Drawing.Size(75, 75);
+            this.FormSocio.Size = new System.Drawing.Size(100, 100);
             this.FormSocio.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.FormSocio.TabIndex = 57;
             this.FormSocio.Click += new System.EventHandler(this.FormSocio_Click);
@@ -431,31 +431,52 @@ namespace UNIDAD_4
             this.bunifuIconButton6.ColorContrastOnClick = 30;
             this.bunifuIconButton6.ColorContrastOnHover = 30;
             this.bunifuIconButton6.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.bunifuIconButton6.CustomizableEdges = borderEdges12;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.bunifuIconButton6.CustomizableEdges = borderEdges6;
             this.bunifuIconButton6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton6.Image")));
             this.bunifuIconButton6.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuIconButton6.Location = new System.Drawing.Point(28, 650);
-            this.bunifuIconButton6.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuIconButton6.Location = new System.Drawing.Point(37, 826);
+            this.bunifuIconButton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuIconButton6.Name = "bunifuIconButton6";
             this.bunifuIconButton6.RoundBorders = true;
             this.bunifuIconButton6.ShowBorders = true;
-            this.bunifuIconButton6.Size = new System.Drawing.Size(75, 75);
+            this.bunifuIconButton6.Size = new System.Drawing.Size(100, 100);
             this.bunifuIconButton6.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.bunifuIconButton6.TabIndex = 70;
             this.bunifuIconButton6.Click += new System.EventHandler(this.bunifuIconButton6_Click);
             // 
+            // idCiudad
+            // 
+            this.idCiudad.Location = new System.Drawing.Point(233, 328);
+            this.idCiudad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.idCiudad.Name = "idCiudad";
+            this.idCiudad.Size = new System.Drawing.Size(231, 22);
+            this.idCiudad.TabIndex = 72;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(228, 301);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 24);
+            this.label1.TabIndex = 71;
+            this.label1.Text = "Id Ciudad";
+            // 
             // Registro_Ciudad
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(823, 736);
+            this.ClientSize = new System.Drawing.Size(1024, 951);
+            this.Controls.Add(this.idCiudad);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuIconButton6);
             this.Controls.Add(this.Consultas);
             this.Controls.Add(this.panel7);
@@ -465,18 +486,19 @@ namespace UNIDAD_4
             this.Controls.Add(this.FormFarmacia);
             this.Controls.Add(this.Eliminar_P);
             this.Controls.Add(this.FormSocio);
-            this.Controls.Add(this.Buscar_P);
+            this.Controls.Add(this.modificar);
             this.Controls.Add(this.Guardar_P);
-            this.Controls.Add(this.Sup);
+            this.Controls.Add(this.superReg);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.Hab);
+            this.Controls.Add(this.habReg);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.Estado);
+            this.Controls.Add(this.estadoReg);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.Ciudad);
+            this.Controls.Add(this.ciudadReg);
             this.Controls.Add(this.label4);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Registro_Ciudad";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro Ciudad";
             this.Load += new System.EventHandler(this.Registro_Ciudad_Load);
             this.ResumeLayout(false);
@@ -485,17 +507,17 @@ namespace UNIDAD_4
         }
 
         #endregion
-        private System.Windows.Forms.TextBox Sup;
+        private System.Windows.Forms.TextBox superReg;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox Hab;
+        private System.Windows.Forms.TextBox habReg;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox Estado;
+        private System.Windows.Forms.TextBox estadoReg;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox Ciudad;
+        private System.Windows.Forms.TextBox ciudadReg;
         private System.Windows.Forms.Label label4;
         private Bunifu.Framework.UI.BunifuThinButton2 Salir;
         private Bunifu.Framework.UI.BunifuThinButton2 Eliminar_P;
-        private Bunifu.Framework.UI.BunifuThinButton2 Buscar_P;
+        private Bunifu.Framework.UI.BunifuThinButton2 modificar;
         private Bunifu.Framework.UI.BunifuThinButton2 Guardar_P;
         private System.Windows.Forms.Panel panel7;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton Consultas;
@@ -504,5 +526,7 @@ namespace UNIDAD_4
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton FormFarmacia;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton FormSocio;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton6;
+        private System.Windows.Forms.TextBox idCiudad;
+        private System.Windows.Forms.Label label1;
     }
 }

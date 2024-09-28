@@ -20,30 +20,30 @@ namespace UNIDAD_4
 
         //SqlConnection Conex = new SqlConnection(@"server = .DESKTOP-LRR3RR8/sqlexpres; Initial Catalog = FarmaciasMP; Integrated Security = True");
         //SqlConnection Conex = new SqlConnection("Data Source =(local); Initial Catalog = FarmaciasMP; Integrated Security = True");
+        //SqlConnection Conex = new SqlConnection("Data Source = DESKTOP-D739HSR\\SQLEXPRESS; Initial Catalog = FarmaciasMP; Integrated Security = True");
 
-        SqlConnection Conex = new SqlConnection("Data Source = (local); Initial Catalog = FarmaciasMP; Integrated Security = True");
+       static string conexSql = "server= DESKTOP-D739HSR\\SQLEXPRESS; database= FarmaciasMP; Integrated Security= True";
+        SqlConnection Conex = new SqlConnection(conexSql);
 
         //BOTON GUARDAR
         private void Guardar_P_Click(object sender, EventArgs e)
-        {
-            //declaracion del comando para agregar a la tabla
-            SqlCommand AltaCiudad = new SqlCommand("Insert into Registro_Cd(Ciudad, Estado, Hab, Sup)", Conex);
-            AltaCiudad.Parameters.AddWithValue("Ciudad", Ciudad.Text);
-            AltaCiudad.Parameters.AddWithValue("Estado", Estado.Text);
-            AltaCiudad.Parameters.AddWithValue("Hab", Hab.Text);
-            AltaCiudad.Parameters.AddWithValue("Sup", Sup.Text);
-
+        { 
             //ABRIENDO CONEXION CON LA BASE DE DAATOS
             Conex.Open();
-            AltaCiudad.ExecuteNonQuery();
+            string cadena = "insert into regCiudad(idCiudad, ciudadReg, estadoReg, habReg, superReg) values ('"+idCiudad+"', '"+ ciudadReg.Text+"', '"+estadoReg.Text+"', '"+habReg.Text+"', '"+superReg.Text+"')";
+            SqlCommand comando = new SqlCommand(cadena, Conex);
+            MessageBox.Show("registro guardado con exito");
+
+
+            
             Conex.Close();
 
             MessageBox.Show("Registro de Ciudad almacenada correctamente.");
 
-            Ciudad.Clear();
-            Estado.Clear();
-            Hab.Clear();
-            Sup.Clear();
+            ciudadReg.Clear();
+            estadoReg.Clear();
+            habReg.Clear();
+            superReg.Clear();
             
         }
 
@@ -57,6 +57,7 @@ namespace UNIDAD_4
 
         }
 
+        //BOTON PANTALLA REGISTRO DE CIUDADES
         private void Ciudades_Click(object sender, EventArgs e)
         {
             Form Form0 = new Registro_Ciudad();
@@ -75,7 +76,7 @@ namespace UNIDAD_4
         //BOTON FARMACIAS
         private void FormFarmacia_Click(object sender, EventArgs e)
         {
-            Form Form2 = new Registro_Farmacias();
+            Form Form2 = new RegistroFarmacias();
             Form2.Show();
             this.Hide();
         }
@@ -104,24 +105,53 @@ namespace UNIDAD_4
             this.Hide();
         }
 
-        //BOTON DE SALID
+        //BOTON DE SALIR
         private void Salir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
+        //BOTON PARA ELIMINAR DEL REGISTRO
         private void Eliminar_P_Click(object sender, EventArgs e)
         {
-            string EliminarCd = "DELETE FROM Regristro_Cd WHERE Ciudad = @Ciudad";
             Conex.Open();
+            string EliminarCd = "DELETE FROM regCiudad WHERE idCiudad = "+idCiudad.Text+"";
+
             SqlCommand DeleteCd = new SqlCommand(EliminarCd, Conex);
-            DeleteCd.Parameters.Add("Ciudad", Ciudad.Text);
+            
+            
             DeleteCd.ExecuteNonQuery();
-            DeleteCd.Dispose();
-            DeleteCd = null;
-            Ciudad.Clear();
+
+            ciudadReg.Clear();
             Conex.Close();
             MessageBox.Show("Registro de Ciudad eliminado correctamente.");
+
+        }
+
+        //BOTON PARA modificar UN REGISTRO EN ESPECIFICO
+        private void Buscar_P_Click(object sender, EventArgs e)
+        {
+            Conex.Open();
+            string consulta = "UPDATE regCiudad SET idCiudad =" + idCiudad.Text + "ciudadReg =" + ciudadReg.Text + "estadoReg = " + estadoReg.Text + "habReg ="
+                + habReg.Text +"superReg ="+superReg.Text + "superReg=" + superReg.Text + "WHERE idCiudad= "+idCiudad.Text+"";
+
+            SqlCommand comando = new SqlCommand(consulta, Conex);
+            int cantidad;
+            cantidad = comando.ExecuteNonQuery();
+
+            if(cantidad >0)
+            {
+                MessageBox.Show("Registro modificado con exito");
+            }
+
+            Conex.Close();
+
+            idCiudad.Clear();
+            ciudadReg.Clear();
+            estadoReg.Clear();
+            habReg.Clear();
+            superReg.Clear();
+
 
         }
     }

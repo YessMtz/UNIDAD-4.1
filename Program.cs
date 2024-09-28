@@ -19,7 +19,7 @@ namespace UNIDAD_4
             Application.Run(new Registro_Propietarios());
             Application.Run(new Registro_Ciudad());
             Application.Run(new Consultas());
-            Application.Run(new Registro_Farmacias());
+            Application.Run(new RegistroFarmacias());
             Application.Run(new Registro_Medicamento());
         }
     }

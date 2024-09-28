@@ -65,12 +65,12 @@ namespace UNIDAD_4
             this.Consultas.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Consultas.Image = ((System.Drawing.Image)(resources.GetObject("Consultas.Image")));
             this.Consultas.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Consultas.Location = new System.Drawing.Point(561, 392);
-            this.Consultas.Margin = new System.Windows.Forms.Padding(2);
+            this.Consultas.Location = new System.Drawing.Point(730, 605);
+            this.Consultas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Consultas.Name = "Consultas";
             this.Consultas.RoundBorders = true;
             this.Consultas.ShowBorders = true;
-            this.Consultas.Size = new System.Drawing.Size(75, 75);
+            this.Consultas.Size = new System.Drawing.Size(100, 100);
             this.Consultas.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Consultas.TabIndex = 66;
             this.Consultas.Click += new System.EventHandler(this.Consultas_Click);
@@ -98,12 +98,12 @@ namespace UNIDAD_4
             this.Ciudades.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Ciudades.Image = ((System.Drawing.Image)(resources.GetObject("Ciudades.Image")));
             this.Ciudades.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Ciudades.Location = new System.Drawing.Point(350, 392);
-            this.Ciudades.Margin = new System.Windows.Forms.Padding(2);
+            this.Ciudades.Location = new System.Drawing.Point(449, 605);
+            this.Ciudades.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Ciudades.Name = "Ciudades";
             this.Ciudades.RoundBorders = true;
             this.Ciudades.ShowBorders = true;
-            this.Ciudades.Size = new System.Drawing.Size(75, 75);
+            this.Ciudades.Size = new System.Drawing.Size(100, 100);
             this.Ciudades.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Ciudades.TabIndex = 65;
             this.Ciudades.Click += new System.EventHandler(this.Ciudades_Click);
@@ -131,12 +131,12 @@ namespace UNIDAD_4
             this.Medicamento.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Medicamento.Image = ((System.Drawing.Image)(resources.GetObject("Medicamento.Image")));
             this.Medicamento.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.Medicamento.Location = new System.Drawing.Point(247, 392);
-            this.Medicamento.Margin = new System.Windows.Forms.Padding(2);
+            this.Medicamento.Location = new System.Drawing.Point(311, 605);
+            this.Medicamento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Medicamento.Name = "Medicamento";
             this.Medicamento.RoundBorders = true;
             this.Medicamento.ShowBorders = true;
-            this.Medicamento.Size = new System.Drawing.Size(75, 75);
+            this.Medicamento.Size = new System.Drawing.Size(100, 100);
             this.Medicamento.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.Medicamento.TabIndex = 64;
             this.Medicamento.Click += new System.EventHandler(this.Medicamento_Click);
@@ -164,12 +164,12 @@ namespace UNIDAD_4
             this.FormFarmacia.DialogResult = System.Windows.Forms.DialogResult.None;
             this.FormFarmacia.Image = ((System.Drawing.Image)(resources.GetObject("FormFarmacia.Image")));
             this.FormFarmacia.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.FormFarmacia.Location = new System.Drawing.Point(460, 392);
-            this.FormFarmacia.Margin = new System.Windows.Forms.Padding(2);
+            this.FormFarmacia.Location = new System.Drawing.Point(595, 605);
+            this.FormFarmacia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FormFarmacia.Name = "FormFarmacia";
             this.FormFarmacia.RoundBorders = true;
             this.FormFarmacia.ShowBorders = true;
-            this.FormFarmacia.Size = new System.Drawing.Size(75, 75);
+            this.FormFarmacia.Size = new System.Drawing.Size(100, 100);
             this.FormFarmacia.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.FormFarmacia.TabIndex = 63;
             this.FormFarmacia.Click += new System.EventHandler(this.FormFarmacia_Click);
@@ -197,24 +197,24 @@ namespace UNIDAD_4
             this.FormSocio.DialogResult = System.Windows.Forms.DialogResult.None;
             this.FormSocio.Image = ((System.Drawing.Image)(resources.GetObject("FormSocio.Image")));
             this.FormSocio.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.FormSocio.Location = new System.Drawing.Point(140, 392);
-            this.FormSocio.Margin = new System.Windows.Forms.Padding(2);
+            this.FormSocio.Location = new System.Drawing.Point(169, 605);
+            this.FormSocio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FormSocio.Name = "FormSocio";
             this.FormSocio.RoundBorders = true;
             this.FormSocio.ShowBorders = true;
-            this.FormSocio.Size = new System.Drawing.Size(75, 75);
+            this.FormSocio.Size = new System.Drawing.Size(100, 100);
             this.FormSocio.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.FormSocio.TabIndex = 62;
             this.FormSocio.Click += new System.EventHandler(this.FormSocio_Click);
             // 
             // Pantalla_Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(812, 591);
+            this.ClientSize = new System.Drawing.Size(1031, 951);
             this.Controls.Add(this.Consultas);
             this.Controls.Add(this.Ciudades);
             this.Controls.Add(this.Medicamento);
@@ -222,8 +222,9 @@ namespace UNIDAD_4
             this.Controls.Add(this.FormSocio);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Pantalla_Inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
         }

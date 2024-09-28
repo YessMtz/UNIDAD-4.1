@@ -115,7 +115,6 @@ C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Consul
 C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Pantalla_Inicio.resources
 C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Properties.Resources.resources
 C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Ciudad.resources
-C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Farmacias.resources
 C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Medicamento.resources
 C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.Registro_Propietarios.resources
 C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD 4.csproj.GenerateResource.cache
@@ -165,3 +164,4 @@ C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\bin\Debug\System.Threading.AccessC
 C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD_4.Consultas.resources
 C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.exe.licenses
 C:\Users\Yessenia Winneman\Downloads\UNIDAD 4\obj\Debug\UNIDAD 4.csproj.Fody.CopyLocal.cache
+C:\Users\admin\Desktop\REPOSITORIOS GIT HUB\UNIDAD-4.1\obj\Debug\UNIDAD_4.RegistroFarmacias.resources

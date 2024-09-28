@@ -226,11 +226,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consultas.cs">
+    <Compile Include="Consultas1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas.Designer.cs">
-      <DependentUpon>Consultas.cs</DependentUpon>
+    <Compile Include="Consultas1.Designer.cs">
+      <DependentUpon>Consultas1.cs</DependentUpon>
     </Compile>
     <Compile Include="Pantalla Inicio.cs">
       <SubType>Form</SubType>
@@ -246,12 +246,6 @@
     <Compile Include="Registro Ciudad.Designer.cs">
       <DependentUpon>Registro Ciudad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Registro Farmacias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Registro Farmacias.Designer.cs">
-      <DependentUpon>Registro Farmacias.cs</DependentUpon>
-    </Compile>
     <Compile Include="Registro Medicamento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -264,8 +258,14 @@
     <Compile Include="Registro Propietarios.Designer.cs">
       <DependentUpon>Registro Propietarios.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Consultas.resx">
-      <DependentUpon>Consultas.cs</DependentUpon>
+    <Compile Include="RegistroFarmacias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroFarmacias.Designer.cs">
+      <DependentUpon>RegistroFarmacias.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Consultas1.resx">
+      <DependentUpon>Consultas1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pantalla Inicio.resx">
       <DependentUpon>Pantalla Inicio.cs</DependentUpon>
@@ -283,14 +283,14 @@
     <EmbeddedResource Include="Registro Ciudad.resx">
       <DependentUpon>Registro Ciudad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registro Farmacias.resx">
-      <DependentUpon>Registro Farmacias.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Registro Medicamento.resx">
       <DependentUpon>Registro Medicamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registro Propietarios.resx">
       <DependentUpon>Registro Propietarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroFarmacias.resx">
+      <DependentUpon>RegistroFarmacias.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

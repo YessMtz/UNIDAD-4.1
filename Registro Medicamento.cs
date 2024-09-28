@@ -22,23 +22,27 @@ namespace UNIDAD_4
 
         //SqlConnection Conex = new SqlConnection(@"server = .DESKTOP-LRR3RR8/sqlexpres; Initial Catalog = FarmaciasMP; Integrated Security = True");
         //SqlConnection Conex = new SqlConnection("Data Source =(local); Initial Catalog = FarmaciasMP; Integrated Security = True");
-
-        SqlConnection Conex = new SqlConnection("Data Source = (local); Initial Catalog = FarmaciasMP; Integrated Security = True");
+        //SqlConnection Conex = new SqlConnection("Data Source = DESKTOP-D739HSR\\SQLEXPRESS; Initial Catalog = FarmaciasMP; Integrated Security = True");
+        //SqlConnection Conex = new SqlConnection(@"server = .DESKTOP-D739HSR\\SQLEXPRESS; Initial Catalog = FarmaciasMP; Integrated Security = True");
+        static string conexSql = "server= DESKTOP-D739HSR\\SQLEXPRESS; database= FarmaciasMP; Integrated Security= True";
+        SqlConnection Conex = new SqlConnection(conexSql);
 
         //BOTON PARA GUARDAR MEDICAMENTO
         private void Guardar_M_Click(object sender, EventArgs e)
         {
-            //Valores para cada variable
-            SqlCommand AltasMed = new SqlCommand("INSERT in to Registro_Medicamento (Id_Medicamento, Comercial_Name, Generic_Name, Similar, Precio)");
-
-            AltasMed.Parameters.AddWithValue("Id_Medicamento", Id_Med.Text);
-            AltasMed.Parameters.AddWithValue("Comercial_Name", Nom_Comercial.Text);
-            AltasMed.Parameters.AddWithValue("Generic_Name", Generico.Text);
-            AltasMed.Parameters.AddWithValue("Similar", Similares.Text);
-            AltasMed.Parameters.AddWithValue("Precio", Precio.Text);
-
-            //se abre la conexion con la base de datos
+             //se abre la conexion con la base de datos
             Conex.Open();
+            
+            //Valores para cada variable
+            SqlCommand AltasMed = new SqlCommand("INSERT in to regMedicamento (idMedi, comercialMedi, genericoMedi, similarMedi, precioMedi, descripMedi)");
+
+            AltasMed.Parameters.AddWithValue("idMedi", idMedi.Text);
+            AltasMed.Parameters.AddWithValue("ComercialMedi", nomComercial.Text);
+            AltasMed.Parameters.AddWithValue("genericoMedi", genericomedi.Text);
+            AltasMed.Parameters.AddWithValue("similarMedi", similarMedi.Text);
+            AltasMed.Parameters.AddWithValue("precioMedi", precioMedi.Text);
+            AltasMed.Parameters.AddWithValue("descrioMedi", descripcionMedi.Text);
+
             //se captura los valores en la base de datos
             AltasMed.ExecuteNonQuery();
             //se cierra la conexion
@@ -48,13 +52,12 @@ namespace UNIDAD_4
             MessageBox.Show("Socio Almacenado");
 
             //se limpian los textbox para un nuevo almacenamiento
-            Id_Med.Clear();
-            Nom_Comercial.Clear();
-            Generico.Clear();
-            Similares.Clear();
-            Precio.Clear();
-
-
+            idMedi.Clear();
+            nomComercial.Clear();
+            genericomedi.Clear();
+            similarMedi.Clear();
+            precioMedi.Clear();
+            descripcionMedi.Clear();
 
         }
 
@@ -73,6 +76,7 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //PANTALLA DE INICIO
         private void bunifuIconButton6_Click(object sender, EventArgs e)
         {
             Form Form6 = new Pantalla_Inicio();
@@ -80,13 +84,15 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //REGISRO DE FARMACIAS
         private void Farmacias_Click(object sender, EventArgs e)
         {
-            Form Form2 = new Registro_Farmacias();
+            Form Form2 = new RegistroFarmacias();
             Form2.Show();
             this.Hide();
         }
 
+        //REGISTRO DE MEDICAMENTO
         private void Medicamento_Click(object sender, EventArgs e)
         {
             Form Form3 = new Registro_Medicamento();
@@ -94,6 +100,7 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //REGISTRO DE CIUDAD
         private void Ciudad_Click(object sender, EventArgs e)
         {
             Form Form4 = new Registro_Ciudad();
@@ -101,6 +108,7 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //REGISTRO CONSULTAS
         private void Consultas_Click(object sender, EventArgs e)
         {
             Form Form5 = new Consultas();
@@ -108,16 +116,17 @@ namespace UNIDAD_4
             this.Hide();
         }
 
+        //BOTON ELIMINAR DATOS DE LA BASE DE DATOS
         private void Eliminar_M_Click(object sender, EventArgs e)
         {
-            string bajaMedi = "DELETE FROM Registro_Medicamento WHERE Id_Medicamento";
             Conex.Open();
-            SqlCommand cmdInstru = new SqlCommand(bajaMedi, Conex);
-            cmdInstru.Parameters.Add("Id_Medicamento", Id_Med.Text);
-            cmdInstru.ExecuteNonQuery();
-            cmdInstru.Dispose();
-            cmdInstru = null;
-            Id_Med.Clear();
+            
+            string bajaMedi = "DELETE FROM regMedicamento WHERE idMedicamento = "+idMedi.Text+"";
+            
+            SqlCommand cmdBorrar = new SqlCommand(bajaMedi, Conex);
+            cmdBorrar.ExecuteNonQuery();
+            
+            idMedi.Clear();
 
             Conex.Close();
             MessageBox.Show("Medicamento Eliminado");
@@ -127,6 +136,37 @@ namespace UNIDAD_4
         private void Registro_Medicamento_Load(object sender, EventArgs e)
         {
 
+        }
+
+        //BOTON PARA BUSCAR
+        private void Buscar_M_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //boton para modificar un registro
+        private void modificar_Click(object sender, EventArgs e)
+        {
+            Conex.Open();
+            string consulta = "UPDATE regMedicamento SET idMedi =" +idMedi.Text+ "comercialMed = '" + nomComercial.Text + "'genericoMedi'" 
+                + genericomedi.Text+"'similarMedi'" +similarMedi.Text+ "'precioMedi'" +precioMedi.Text+ "'descripMedi'" +descripcionMedi.Text+ "'WHERE idMedi='" +idMedi.Text+"";
+            SqlCommand comando = new SqlCommand(consulta, Conex);
+            int cantidad;
+            cantidad = comando.ExecuteNonQuery();
+
+            if (cantidad > 0)
+            {
+                MessageBox.Show("Registro modificado con exito");
+            }
+
+            Conex.Close();
+
+            idMedi.Clear();
+            nomComercial.Clear();
+            genericomedi.Clear();
+            similarMedi.Clear();
+            precioMedi.Clear();
+            descripcionMedi.Clear();
         }
     }
 }
